@@ -7,13 +7,14 @@
 int main(void)
 {
 
-    Encoder_Init();
-    uart_init(9600);
-    int value;
+    // Encoder_Init();
+    // uart_init(9600);
+    // int value;
     while(1)
     {
-        value = (short)Read_Encoder(4);
-        printf("%d\n",value);
+        // value = (short)Read_Encoder(4);
+        // printf("%d\n",value);
+        // printf()
     }
     
 }
