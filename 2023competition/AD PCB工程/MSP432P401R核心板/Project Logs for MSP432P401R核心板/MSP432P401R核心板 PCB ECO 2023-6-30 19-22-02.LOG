@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=5V Pin=JP3-1
+Removed Pin From Net: NetName=5V Pin=JP3-3
+Change Component Designator: OldDesignator=RESET NewDesignator=SW1
+Added Pin To Net: NetName=3V3 Pin=JP3-1
+Added Pin To Net: NetName=3V3 Pin=JP3-3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3

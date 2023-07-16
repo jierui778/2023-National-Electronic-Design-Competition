@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=*-1
+Removed Pin From Net: NetName=GND Pin=*-1
+Change Component Footprint: Designator=X2 Old Footprint=OSC 1612-4P New Footprint=OSC 3225-4P
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3

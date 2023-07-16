@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=JP6-1
+Removed Pin From Net: NetName=SWCLK Pin=JP6-2
+Removed Pin From Net: NetName=SWIO Pin=JP6-3
+Removed Pin From Net: NetName=5V Pin=JP6-4
+Added Pin To Net: NetName=5V Pin=JP6-1
+Added Pin To Net: NetName=SWIO Pin=JP6-2
+Added Pin To Net: NetName=SWCLK Pin=JP6-3
+Added Pin To Net: NetName=GND Pin=JP6-4
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3

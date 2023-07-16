@@ -1,0 +1,25 @@
+import sensor, image, time
+ 2red_threshold_01 = (0, 35, 0, 50, -10, 40)
+ 3sensor.reset()
+ 4sensor.set_pixformat(sensor.RGB565)
+ 5sensor.set_framesize(sensor.QVGA)
+ 6sensor.skip_frames(10)
+ 7sensor.set_auto_whitebal(False)
+ 8clock = time.clock()
+ 9while(True):
+10    clock.tick()
+11    img = sensor.snapshot()
+12    blobs = img.find_blobs([red_threshold_01],
+13                             area_threshold=150)
+14    if blobs:
+15    #如果找到了目标颜色
+16        print(blobs)
+17        for b in blobs:
+18        #迭代找到的目标颜色区域
+19            # Draw a rect around the blob.
+20            img.draw_rectangle(b[0:4]) # rect
+21            #用矩形标记出目标颜色区域
+22            img.draw_cross(b[5], b[6]) # cx, cy
+23            #在目标颜色区域的中心画十字形标记
+24    print(clock.fps())
+

@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=JP3 Old Footprint=XH2.54-WI-3P New Footprint=HDR2.54-LI-3P
+Change Component Footprint: Designator=JP4 Old Footprint=XH2.54-WI-3P New Footprint=HDR2.54-LI-3P
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3

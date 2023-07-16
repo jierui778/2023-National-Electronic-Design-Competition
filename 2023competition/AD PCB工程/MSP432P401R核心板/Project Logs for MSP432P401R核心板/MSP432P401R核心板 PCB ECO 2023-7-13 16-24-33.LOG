@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=E1 Old Footprint=CS 5*6 - B New Footprint=CS 6*6 - B
+Change Component Footprint: Designator=E2 Old Footprint=CS 5*6 - B New Footprint=CS 6*6 - B
+Change Component Footprint: Designator=POWER Old Footprint=PH2.0-WS-2P New Footprint=PH2.0-WI-2P
+Change Component Designator: OldDesignator=POWER NewDesignator=JP5
+Change Component Designator: OldDesignator=SWD NewDesignator=JP6
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3

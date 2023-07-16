@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=LED1-2
+Removed Pin From Net: NetName=GND Pin=LED2-2
+Removed Pin From Net: NetName=GND Pin=LED3-2
+Removed Member From Class: ClassName=MSP432P401R核心板 Member=LED1
+Removed Member From Class: ClassName=MSP432P401R核心板 Member=LED2
+Removed Member From Class: ClassName=MSP432P401R核心板 Member=LED3
+Added Component: Designator=R?(RCA-8P4R-0402)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片网络排阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装库来自淘宝卖家ID：黄晶宝石"; Value = "其他店铺购入均为盗版假冒封装库"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "联系卖家，免费查找封装"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R?-6
+Added Pin To Net: NetName=GND Pin=R?-7
+Added Pin To Net: NetName=GND Pin=R?-8
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R?-1
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=R?-2
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=R?-3
+Added Net: Name=NetR6_2
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component * M3
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component * M3
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component * M3
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component R? 103
