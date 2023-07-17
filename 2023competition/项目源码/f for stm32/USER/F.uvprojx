@@ -581,16 +581,6 @@
               <FilePath>..\HARDWARE\pid.h</FilePath>
             </File>
             <File>
-              <FileName>serial.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\serial.c</FilePath>
-            </File>
-            <File>
-              <FileName>serial.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\serial.h</FilePath>
-            </File>
-            <File>
               <FileName>encoder.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\encoder.h</FilePath>
