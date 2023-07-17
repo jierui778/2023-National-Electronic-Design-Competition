@@ -1,13 +1,6 @@
 #ifndef __SERIAL_H
 #define __SERIAL_H
-<<<<<<< HEAD
 #include "sys.h"
-
-
-
-#endif
-=======
-
 #include <stdio.h>
 
 extern uint8_t Serial_TxPacket[];
@@ -24,4 +17,3 @@ void Serial_SendPacket(void);
 uint8_t Serial_GetRxFlag(void);
 
 #endif
->>>>>>> fcb096a38c8d26b23d47bd8df02911814e8800bd

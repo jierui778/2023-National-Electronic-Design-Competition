@@ -134,6 +134,36 @@ Section Cross References
     encoder.o(i.Encoder_Init) refers to timer.o(i.Encoder_TIM4_Init) for Encoder_TIM4_Init
     encoder.o(i.Read_Encoder) refers to stm32f10x_tim.o(i.TIM_GetCounter) for TIM_GetCounter
     encoder.o(i.Read_Encoder) refers to stm32f10x_tim.o(i.TIM_SetCounter) for TIM_SetCounter
+    oled.o(i.OLED_Clear) refers to oled.o(i.OLED_SetCursor) for OLED_SetCursor
+    oled.o(i.OLED_Clear) refers to oled.o(i.OLED_WriteData) for OLED_WriteData
+    oled.o(i.OLED_I2C_Init) refers to stm32f10x_rcc.o(i.RCC_APB2PeriphClockCmd) for RCC_APB2PeriphClockCmd
+    oled.o(i.OLED_I2C_Init) refers to stm32f10x_gpio.o(i.GPIO_Init) for GPIO_Init
+    oled.o(i.OLED_I2C_Init) refers to stm32f10x_gpio.o(i.GPIO_WriteBit) for GPIO_WriteBit
+    oled.o(i.OLED_I2C_SendByte) refers to stm32f10x_gpio.o(i.GPIO_WriteBit) for GPIO_WriteBit
+    oled.o(i.OLED_I2C_Start) refers to stm32f10x_gpio.o(i.GPIO_WriteBit) for GPIO_WriteBit
+    oled.o(i.OLED_I2C_Stop) refers to stm32f10x_gpio.o(i.GPIO_WriteBit) for GPIO_WriteBit
+    oled.o(i.OLED_Init) refers to oled.o(i.OLED_I2C_Init) for OLED_I2C_Init
+    oled.o(i.OLED_Init) refers to oled.o(i.OLED_WriteCommand) for OLED_WriteCommand
+    oled.o(i.OLED_Init) refers to oled.o(i.OLED_Clear) for OLED_Clear
+    oled.o(i.OLED_SetCursor) refers to oled.o(i.OLED_WriteCommand) for OLED_WriteCommand
+    oled.o(i.OLED_ShowBinNum) refers to oled.o(i.OLED_Pow) for OLED_Pow
+    oled.o(i.OLED_ShowBinNum) refers to oled.o(i.OLED_ShowChar) for OLED_ShowChar
+    oled.o(i.OLED_ShowChar) refers to oled.o(i.OLED_SetCursor) for OLED_SetCursor
+    oled.o(i.OLED_ShowChar) refers to oled.o(i.OLED_WriteData) for OLED_WriteData
+    oled.o(i.OLED_ShowChar) refers to oled.o(.constdata) for .constdata
+    oled.o(i.OLED_ShowHexNum) refers to oled.o(i.OLED_Pow) for OLED_Pow
+    oled.o(i.OLED_ShowHexNum) refers to oled.o(i.OLED_ShowChar) for OLED_ShowChar
+    oled.o(i.OLED_ShowNum) refers to oled.o(i.OLED_Pow) for OLED_Pow
+    oled.o(i.OLED_ShowNum) refers to oled.o(i.OLED_ShowChar) for OLED_ShowChar
+    oled.o(i.OLED_ShowSignedNum) refers to oled.o(i.OLED_ShowChar) for OLED_ShowChar
+    oled.o(i.OLED_ShowSignedNum) refers to oled.o(i.OLED_Pow) for OLED_Pow
+    oled.o(i.OLED_ShowString) refers to oled.o(i.OLED_ShowChar) for OLED_ShowChar
+    oled.o(i.OLED_WriteCommand) refers to oled.o(i.OLED_I2C_Start) for OLED_I2C_Start
+    oled.o(i.OLED_WriteCommand) refers to oled.o(i.OLED_I2C_SendByte) for OLED_I2C_SendByte
+    oled.o(i.OLED_WriteCommand) refers to oled.o(i.OLED_I2C_Stop) for OLED_I2C_Stop
+    oled.o(i.OLED_WriteData) refers to oled.o(i.OLED_I2C_Start) for OLED_I2C_Start
+    oled.o(i.OLED_WriteData) refers to oled.o(i.OLED_I2C_SendByte) for OLED_I2C_SendByte
+    oled.o(i.OLED_WriteData) refers to oled.o(i.OLED_I2C_Stop) for OLED_I2C_Stop
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000F) for __rt_final_cpp
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$00000011) for __rt_final_exit
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry12b.o(.ARM.Collect$$$$0000000E) for __rt_lib_shutdown_fini
@@ -647,8 +677,25 @@ Removing Unused input sections from the image.
     Removing timer.o(i.TIM1_PWM_Init), (120 bytes).
     Removing encoder.o(i.Encoder_Init), (14 bytes).
     Removing encoder.o(i.Read_Encoder), (64 bytes).
+    Removing oled.o(i.OLED_Clear), (38 bytes).
+    Removing oled.o(i.OLED_I2C_Init), (80 bytes).
+    Removing oled.o(i.OLED_I2C_SendByte), (92 bytes).
+    Removing oled.o(i.OLED_I2C_Start), (56 bytes).
+    Removing oled.o(i.OLED_I2C_Stop), (48 bytes).
+    Removing oled.o(i.OLED_Init), (172 bytes).
+    Removing oled.o(i.OLED_Pow), (16 bytes).
+    Removing oled.o(i.OLED_SetCursor), (34 bytes).
+    Removing oled.o(i.OLED_ShowBinNum), (58 bytes).
+    Removing oled.o(i.OLED_ShowChar), (88 bytes).
+    Removing oled.o(i.OLED_ShowHexNum), (80 bytes).
+    Removing oled.o(i.OLED_ShowNum), (64 bytes).
+    Removing oled.o(i.OLED_ShowSignedNum), (98 bytes).
+    Removing oled.o(i.OLED_ShowString), (38 bytes).
+    Removing oled.o(i.OLED_WriteCommand), (34 bytes).
+    Removing oled.o(i.OLED_WriteData), (34 bytes).
+    Removing oled.o(.constdata), (1520 bytes).
 
-491 unused section(s) (total 17690 bytes) removed from the image.
+508 unused section(s) (total 20240 bytes) removed from the image.
 
 ==============================================================================
 
@@ -700,9 +747,9 @@ Image Symbol Table
     ..\FWLIB\src\stm32f10x_tim.c             0x00000000   Number         0  stm32f10x_tim.o ABSOLUTE
     ..\FWLIB\src\stm32f10x_usart.c           0x00000000   Number         0  stm32f10x_usart.o ABSOLUTE
     ..\FWLIB\src\stm32f10x_wwdg.c            0x00000000   Number         0  stm32f10x_wwdg.o ABSOLUTE
+    ..\HARDWARE\OLED.c                       0x00000000   Number         0  oled.o ABSOLUTE
     ..\HARDWARE\encoder.c                    0x00000000   Number         0  encoder.o ABSOLUTE
     ..\HARDWARE\pid.c                        0x00000000   Number         0  pid.o ABSOLUTE
-    ..\HARDWARE\serial.c                     0x00000000   Number         0  serial.o ABSOLUTE
     ..\HARDWARE\timer.c                      0x00000000   Number         0  timer.o ABSOLUTE
     ..\SYSTEM\delay\delay.c                  0x00000000   Number         0  delay.o ABSOLUTE
     ..\SYSTEM\sys\sys.c                      0x00000000   Number         0  sys.o ABSOLUTE
@@ -874,18 +921,18 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x000000ec   Data   RO          203    RESET               startup_stm32f10x_md.o
-    0x080000ec   0x080000ec   0x00000000   Code   RO         3390  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x080000ec   0x080000ec   0x00000004   Code   RO         3393    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x080000f0   0x080000f0   0x00000004   Code   RO         3396    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x080000f4   0x080000f4   0x00000000   Code   RO         3398    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x080000f4   0x080000f4   0x00000000   Code   RO         3400    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x080000f4   0x080000f4   0x00000008   Code   RO         3401    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x080000fc   0x080000fc   0x00000004   Code   RO         3408    .ARM.Collect$$$$0000000E  mc_w.l(entry12b.o)
-    0x08000100   0x08000100   0x00000000   Code   RO         3403    .ARM.Collect$$$$0000000F  mc_w.l(entry10a.o)
-    0x08000100   0x08000100   0x00000000   Code   RO         3405    .ARM.Collect$$$$00000011  mc_w.l(entry11a.o)
-    0x08000100   0x08000100   0x00000004   Code   RO         3394    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x080000ec   0x080000ec   0x00000000   Code   RO         3493  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080000ec   0x080000ec   0x00000004   Code   RO         3496    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080000f0   0x080000f0   0x00000004   Code   RO         3499    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080000f4   0x080000f4   0x00000000   Code   RO         3501    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080000f4   0x080000f4   0x00000000   Code   RO         3503    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080000f4   0x080000f4   0x00000008   Code   RO         3504    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x080000fc   0x080000fc   0x00000004   Code   RO         3511    .ARM.Collect$$$$0000000E  mc_w.l(entry12b.o)
+    0x08000100   0x08000100   0x00000000   Code   RO         3506    .ARM.Collect$$$$0000000F  mc_w.l(entry10a.o)
+    0x08000100   0x08000100   0x00000000   Code   RO         3508    .ARM.Collect$$$$00000011  mc_w.l(entry11a.o)
+    0x08000100   0x08000100   0x00000004   Code   RO         3497    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000104   0x08000104   0x00000024   Code   RO          204    .text               startup_stm32f10x_md.o
-    0x08000128   0x08000128   0x00000024   Code   RO         3409    .text               mc_w.l(init.o)
+    0x08000128   0x08000128   0x00000024   Code   RO         3512    .text               mc_w.l(init.o)
     0x0800014c   0x0800014c   0x00000018   Code   RO          118    i.ADC1_2_IRQHandler  stm32f10x_it.o
     0x08000164   0x08000164   0x00000006   Code   RO          319    i.ADC_GetConversionValue  stm32f10x_adc.o
     0x0800016a   0x0800016a   0x00000002   Code   RO          119    i.BusFault_Handler  stm32f10x_it.o
@@ -904,12 +951,12 @@ Memory Map of the image
     0x080002e8   0x080002e8   0x00000040   Code   RO         3009    i.USART_GetITStatus  stm32f10x_usart.o
     0x08000328   0x08000328   0x00000008   Code   RO         3019    i.USART_ReceiveData  stm32f10x_usart.o
     0x08000330   0x08000330   0x00000002   Code   RO          127    i.UsageFault_Handler  stm32f10x_it.o
-    0x08000332   0x08000332   0x0000000e   Code   RO         3413    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08000340   0x08000340   0x00000002   Code   RO         3414    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08000342   0x08000342   0x0000000e   Code   RO         3415    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08000332   0x08000332   0x0000000e   Code   RO         3516    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08000340   0x08000340   0x00000002   Code   RO         3517    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08000342   0x08000342   0x0000000e   Code   RO         3518    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08000350   0x08000350   0x00000002   Code   RO            1    i.main              main.o
     0x08000352   0x08000352   0x00000002   PAD
-    0x08000354   0x08000354   0x00000020   Data   RO         3411    Region$$Table       anon$$obj.o
+    0x08000354   0x08000354   0x00000020   Data   RO         3514    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08000374, Size: 0x000004d0, Max: 0x00005000, ABSOLUTE)

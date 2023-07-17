@@ -581,16 +581,6 @@
               <FilePath>..\HARDWARE\pid.h</FilePath>
             </File>
             <File>
-              <FileName>serial.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\serial.c</FilePath>
-            </File>
-            <File>
-              <FileName>serial.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\serial.h</FilePath>
-            </File>
-            <File>
               <FileName>encoder.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\encoder.h</FilePath>
@@ -599,6 +589,21 @@
               <FileName>encoder.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\encoder.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\OLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\OLED.h</FilePath>
+            </File>
+            <File>
+              <FileName>OLED_Font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\OLED_Font.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -10,6 +10,18 @@
     "files": [],
     "folders": [
       {
+        "name": "USER",
+        "files": [
+          {
+            "path": "main.c"
+          },
+          {
+            "path": "stm32f10x_it.c"
+          }
+        ],
+        "folders": []
+      },
+      {
         "name": "CORE",
         "files": [
           {
@@ -100,48 +112,6 @@
         "folders": []
       },
       {
-        "name": "HARDWARE",
-        "files": [
-          {
-            "path": "../HARDWARE/encoder.c"
-          },
-          {
-            "path": "../HARDWARE/encoder.h"
-          },
-          {
-            "path": "../HARDWARE/OLED.c"
-          },
-          {
-            "path": "../HARDWARE/OLED.h"
-          },
-          {
-            "path": "../HARDWARE/pid.c"
-          },
-          {
-            "path": "../HARDWARE/pid.h"
-          },
-          {
-            "path": "../HARDWARE/serial.c"
-          },
-          {
-            "path": "../HARDWARE/serial.h"
-          },
-          {
-            "path": "../HARDWARE/timer.c"
-          },
-          {
-            "path": "../HARDWARE/timer.h"
-          },
-          {
-            "path": "../HARDWARE/vofa.c"
-          },
-          {
-            "path": "../HARDWARE/vofa.h"
-          }
-        ],
-        "folders": []
-      },
-      {
         "name": "SYSTEM",
         "files": [
           {
@@ -157,13 +127,34 @@
         "folders": []
       },
       {
-        "name": "USER",
+        "name": "HARDWARE",
         "files": [
           {
-            "path": "main.c"
+            "path": "../HARDWARE/timer.c"
           },
           {
-            "path": "stm32f10x_it.c"
+            "path": "../HARDWARE/timer.h"
+          },
+          {
+            "path": "../HARDWARE/pid.c"
+          },
+          {
+            "path": "../HARDWARE/pid.h"
+          },
+          {
+            "path": "../HARDWARE/encoder.h"
+          },
+          {
+            "path": "../HARDWARE/encoder.c"
+          },
+          {
+            "path": "../HARDWARE/OLED.c"
+          },
+          {
+            "path": "../HARDWARE/OLED.h"
+          },
+          {
+            "path": "../HARDWARE/OLED_Font.h"
           }
         ],
         "folders": []
@@ -330,9 +321,7 @@
           "../FWLIB/src",
           "../HARDWARE",
           "../SYSTEM",
-          ".cmsis/include",
-          "RTE/_F",
-          ".eide/deps"
+          "RTE/_F"
         ],
         "libList": [],
         "sourceDirList": [],
