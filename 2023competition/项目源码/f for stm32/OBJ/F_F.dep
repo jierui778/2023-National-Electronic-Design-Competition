@@ -1,6 +1,6 @@
 Dependencies for Project 'F', Target 'F': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\main.c)(0x64B4CB56)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x64B4DC21)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x64B3988C)
 I (..\CORE\core_cm3.h)(0x64B3988B)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -35,6 +35,7 @@ I (..\HARDWARE\timer.h)(0x64B3988B)
 I (..\SYSTEM\usart\usart.h)(0x64B3988B)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (..\HARDWARE\encoder.h)(0x64B4CB56)
+I (..\HARDWARE\oled.h)(0x64B4D9CD)
 F (.\stm32f10x_it.c)(0x64B3988C)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x64B3988C)
 I (stm32f10x.h)(0x64B3988C)
@@ -955,7 +956,7 @@ I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B3988B)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64B3988B)
 I (..\FWLIB\inc\misc.h)(0x64B3988B)
 I (..\HARDWARE\timer.h)(0x64B3988B)
-F (..\HARDWARE\OLED.c)(0x64B4CB67)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
+F (..\HARDWARE\OLED.c)(0x64B4D974)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
 I (..\USER\stm32f10x.h)(0x64B3988C)
 I (..\CORE\core_cm3.h)(0x64B3988B)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -985,5 +986,5 @@ I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B3988B)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64B3988B)
 I (..\FWLIB\inc\misc.h)(0x64B3988B)
 I (..\HARDWARE\OLED_Font.h)(0x64B4D5F8)
-F (..\HARDWARE\OLED.h)(0x64B4D686)()
+F (..\HARDWARE\OLED.h)(0x64B4D9CD)()
 F (..\HARDWARE\OLED_Font.h)(0x64B4D5F8)()

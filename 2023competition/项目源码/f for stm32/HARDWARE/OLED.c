@@ -20,6 +20,7 @@ void OLED_I2C_Init(void)
 	
 	OLED_W_SCL(1);
 	OLED_W_SDA(1);
+	//软件模拟IIC
 }
 
 /**

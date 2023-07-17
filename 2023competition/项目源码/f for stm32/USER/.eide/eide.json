@@ -10,18 +10,6 @@
     "files": [],
     "folders": [
       {
-        "name": "USER",
-        "files": [
-          {
-            "path": "main.c"
-          },
-          {
-            "path": "stm32f10x_it.c"
-          }
-        ],
-        "folders": []
-      },
-      {
         "name": "CORE",
         "files": [
           {
@@ -112,6 +100,39 @@
         "folders": []
       },
       {
+        "name": "HARDWARE",
+        "files": [
+          {
+            "path": "../HARDWARE/encoder.c"
+          },
+          {
+            "path": "../HARDWARE/encoder.h"
+          },
+          {
+            "path": "../HARDWARE/OLED_Font.h"
+          },
+          {
+            "path": "../HARDWARE/OLED.c"
+          },
+          {
+            "path": "../HARDWARE/OLED.h"
+          },
+          {
+            "path": "../HARDWARE/pid.c"
+          },
+          {
+            "path": "../HARDWARE/pid.h"
+          },
+          {
+            "path": "../HARDWARE/timer.c"
+          },
+          {
+            "path": "../HARDWARE/timer.h"
+          }
+        ],
+        "folders": []
+      },
+      {
         "name": "SYSTEM",
         "files": [
           {
@@ -127,34 +148,13 @@
         "folders": []
       },
       {
-        "name": "HARDWARE",
+        "name": "USER",
         "files": [
           {
-            "path": "../HARDWARE/timer.c"
+            "path": "main.c"
           },
           {
-            "path": "../HARDWARE/timer.h"
-          },
-          {
-            "path": "../HARDWARE/pid.c"
-          },
-          {
-            "path": "../HARDWARE/pid.h"
-          },
-          {
-            "path": "../HARDWARE/encoder.h"
-          },
-          {
-            "path": "../HARDWARE/encoder.c"
-          },
-          {
-            "path": "../HARDWARE/OLED.c"
-          },
-          {
-            "path": "../HARDWARE/OLED.h"
-          },
-          {
-            "path": "../HARDWARE/OLED_Font.h"
+            "path": "stm32f10x_it.c"
           }
         ],
         "folders": []
