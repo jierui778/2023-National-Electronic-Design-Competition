@@ -1,7 +1,11 @@
 ..\obj\serial.o: ..\HARDWARE\serial.c
 ..\obj\serial.o: ..\USER\stm32f10x.h
 ..\obj\serial.o: ..\CORE\core_cm3.h
+<<<<<<< HEAD
 ..\obj\serial.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+=======
+..\obj\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+>>>>>>> c838046d80363aaa2355d4e9b5c440b96ae6ab15
 ..\obj\serial.o: ..\USER\system_stm32f10x.h
 ..\obj\serial.o: ..\USER\stm32f10x_conf.h
 ..\obj\serial.o: ..\FWLIB\inc\stm32f10x_adc.h
@@ -28,5 +32,10 @@
 ..\obj\serial.o: ..\FWLIB\inc\stm32f10x_usart.h
 ..\obj\serial.o: ..\FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\serial.o: ..\FWLIB\inc\misc.h
+<<<<<<< HEAD
 ..\obj\serial.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\serial.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+=======
+..\obj\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+>>>>>>> c838046d80363aaa2355d4e9b5c440b96ae6ab15

@@ -2,7 +2,11 @@
 ..\obj\stm32f10x_gpio.o: ..\FWLIB\inc\stm32f10x_gpio.h
 ..\obj\stm32f10x_gpio.o: ..\USER\stm32f10x.h
 ..\obj\stm32f10x_gpio.o: ..\CORE\core_cm3.h
+<<<<<<< HEAD
 ..\obj\stm32f10x_gpio.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+=======
+..\obj\stm32f10x_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+>>>>>>> c838046d80363aaa2355d4e9b5c440b96ae6ab15
 ..\obj\stm32f10x_gpio.o: ..\USER\system_stm32f10x.h
 ..\obj\stm32f10x_gpio.o: ..\USER\stm32f10x_conf.h
 ..\obj\stm32f10x_gpio.o: ..\FWLIB\inc\stm32f10x_adc.h
