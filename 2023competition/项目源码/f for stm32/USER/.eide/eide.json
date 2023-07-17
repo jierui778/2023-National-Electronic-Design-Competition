@@ -109,6 +109,12 @@
             "path": "../HARDWARE/encoder.h"
           },
           {
+            "path": "../HARDWARE/OLED.c"
+          },
+          {
+            "path": "../HARDWARE/OLED.h"
+          },
+          {
             "path": "../HARDWARE/pid.c"
           },
           {
