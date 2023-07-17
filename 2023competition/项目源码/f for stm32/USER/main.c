@@ -9,7 +9,7 @@ int16_t AX, AY, AZ, GX, GY, GZ;
 int main(void)
 {
 	OLED_Init();
-//	MPU6050_Init();
+	MPU6050_Init();
 	
 	OLED_ShowString(1, 1, "ID:");
 	ID = MPU6050_GetID();

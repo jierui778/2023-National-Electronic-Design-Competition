@@ -621,11 +621,6 @@
               <FilePath>..\HARDWARE\MPU6050_Reg.h</FilePath>
             </File>
             <File>
-              <FileName>MyI2C.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\MyI2C.c</FilePath>
-            </File>
-            <File>
               <FileName>MyI2C.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\MyI2C.h</FilePath>

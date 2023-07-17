@@ -1,6 +1,6 @@
 Dependencies for Project 'F', Target 'F': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\main.c)(0x64B54213)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x64B54416)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x64B4CC73)
 I (..\CORE\core_cm3.h)(0x64B4CC71)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
@@ -30,7 +30,7 @@ I (..\FWLIB\inc\stm32f10x_tim.h)(0x64B4CC71)
 I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B4CC71)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64B4CC71)
 I (..\FWLIB\inc\misc.h)(0x64B4CC71)
-I (..\SYSTEM\delay\Delay.h)(0x64B4CC71)
+I (..\SYSTEM\delay\delay.h)(0x64B545EF)
 I (..\SYSTEM\sys\sys.h)(0x64B4CC71)
 I (..\HARDWARE\OLED.h)(0x64B4CC71)
 I (..\HARDWARE\MPU6050.h)(0x63985B24)
@@ -764,8 +764,8 @@ I (..\FWLIB\inc\stm32f10x_spi.h)(0x64B4CC71)
 I (..\FWLIB\inc\stm32f10x_tim.h)(0x64B4CC71)
 I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B4CC71)
 I (..\FWLIB\inc\misc.h)(0x64B4CC71)
-F (..\SYSTEM\delay\delay.c)(0x64B4CC71)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
-I (..\SYSTEM\delay\delay.h)(0x64B4CC71)
+F (..\SYSTEM\delay\delay.c)(0x64B545EF)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x64B545EF)
 I (..\SYSTEM\sys\sys.h)(0x64B4CC71)
 I (..\USER\stm32f10x.h)(0x64B4CC73)
 I (..\CORE\core_cm3.h)(0x64B4CC71)
@@ -1020,7 +1020,7 @@ I (..\HARDWARE\MyI2C.h)(0x63984C44)
 I (..\HARDWARE\MPU6050_Reg.h)(0x63985438)
 F (..\HARDWARE\MPU6050.h)(0x63985B24)()
 F (..\HARDWARE\MPU6050_Reg.h)(0x63985438)()
-F (..\HARDWARE\MyI2C.c)(0x64B5412C)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\myi2c.o --omf_browse ..\obj\myi2c.crf --depend ..\obj\myi2c.d)
+F (..\HARDWARE\MyI2C.c)(0x64B546EE)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\HARDWARE -I ..\SYSTEM -I ..\FWLIB\src-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\myi2c.o --omf_browse ..\obj\myi2c.crf --depend ..\obj\myi2c.d)
 I (..\USER\stm32f10x.h)(0x64B4CC73)
 I (..\CORE\core_cm3.h)(0x64B4CC71)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
@@ -1049,6 +1049,6 @@ I (..\FWLIB\inc\stm32f10x_tim.h)(0x64B4CC71)
 I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B4CC71)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64B4CC71)
 I (..\FWLIB\inc\misc.h)(0x64B4CC71)
-I (..\SYSTEM\delay\Delay.h)(0x64B4CC71)
+I (..\SYSTEM\delay\delay.h)(0x64B545EF)
 I (..\SYSTEM\sys\sys.h)(0x64B4CC71)
 F (..\HARDWARE\MyI2C.h)(0x63984C44)()
