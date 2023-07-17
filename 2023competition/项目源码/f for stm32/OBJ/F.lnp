@@ -33,6 +33,9 @@
 "..\obj\timer.o"
 "..\obj\pid.o"
 "..\obj\encoder.o"
+"..\obj\oled.o"
+"..\obj\mpu6050.o"
+"..\obj\myi2c.o"
 --library_type=microlib --strict --scatter "..\OBJ\F.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

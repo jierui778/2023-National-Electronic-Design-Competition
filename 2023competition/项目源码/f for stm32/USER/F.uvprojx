@@ -581,14 +581,54 @@
               <FilePath>..\HARDWARE\pid.h</FilePath>
             </File>
             <File>
+              <FileName>encoder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\encoder.c</FilePath>
+            </File>
+            <File>
               <FileName>encoder.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\encoder.h</FilePath>
             </File>
             <File>
-              <FileName>encoder.c</FileName>
+              <FileName>OLED.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\encoder.c</FilePath>
+              <FilePath>..\HARDWARE\OLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\OLED.h</FilePath>
+            </File>
+            <File>
+              <FileName>OLED_Font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\OLED_Font.h</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\MPU6050.c</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\MPU6050.h</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050_Reg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\MPU6050_Reg.h</FilePath>
+            </File>
+            <File>
+              <FileName>MyI2C.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\MyI2C.c</FilePath>
+            </File>
+            <File>
+              <FileName>MyI2C.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\MyI2C.h</FilePath>
             </File>
           </Files>
         </Group>
