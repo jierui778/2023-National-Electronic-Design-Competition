@@ -3,11 +3,7 @@
 ..\obj\encoder.o: ..\SYSTEM\sys\sys.h
 ..\obj\encoder.o: ..\USER\stm32f10x.h
 ..\obj\encoder.o: ..\CORE\core_cm3.h
-<<<<<<< HEAD
 ..\obj\encoder.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-=======
-..\obj\encoder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
->>>>>>> c838046d80363aaa2355d4e9b5c440b96ae6ab15
 ..\obj\encoder.o: ..\USER\system_stm32f10x.h
 ..\obj\encoder.o: ..\USER\stm32f10x_conf.h
 ..\obj\encoder.o: ..\FWLIB\inc\stm32f10x_adc.h

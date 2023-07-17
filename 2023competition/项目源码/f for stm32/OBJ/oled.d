@@ -29,3 +29,6 @@
 ..\obj\oled.o: ..\FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\oled.o: ..\FWLIB\inc\misc.h
 ..\obj\oled.o: ..\HARDWARE\OLED_Font.h
+..\obj\oled.o: ..\HARDWARE\OLED.h
+..\obj\oled.o: ..\SYSTEM\sys\sys.h
+..\obj\oled.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
