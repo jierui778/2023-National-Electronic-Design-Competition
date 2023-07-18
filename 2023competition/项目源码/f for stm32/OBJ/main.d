@@ -28,9 +28,15 @@
 ..\obj\main.o: ..\FWLIB\inc\stm32f10x_usart.h
 ..\obj\main.o: ..\FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\main.o: ..\FWLIB\inc\misc.h
+..\obj\main.o: ..\SYSTEM\delay\delay.h
 ..\obj\main.o: ..\SYSTEM\sys\sys.h
+<<<<<<< HEAD
 ..\obj\main.o: ..\HARDWARE\timer.h
 ..\obj\main.o: ..\SYSTEM\usart\usart.h
 ..\obj\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\encoder.h
 ..\obj\main.o: ..\HARDWARE\oled.h
+=======
+..\obj\main.o: ..\HARDWARE\OLED.h
+..\obj\main.o: ..\HARDWARE\MPU6050.h
+>>>>>>> d97c8e45af3a089e71086adf8ce217e14cbf8ade
