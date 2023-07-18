@@ -1,5 +1,9 @@
 //说明:这里使用的是PB10、11的引脚
 //由于是软件模拟，取其他引脚也可以
+//MPU6050_GetData（）输出的数据是未经过换算的
+//修改MPU6050_GYRO_CONFIG和  MPU6050_ACCEL_CONFIG  修改量程
+//对应的值为：显示值*量程/65536 
+
 
 #include "stm32f10x.h"                  // Device header
 #include "delay.h"
