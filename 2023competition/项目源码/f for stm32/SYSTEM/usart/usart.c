@@ -219,12 +219,12 @@ void Serial_SendNumber(uint32_t Number, uint8_t Length)
 		Serial_SendByte(Number / Serial_Pow(10, Length - i - 1) % 10 + '0');
 	}
 }
-
-int fputc(int ch, FILE *f)
-{
-	Serial_SendByte(ch);
-	return ch;
-}
+//Printf 重定义重复
+//int fputc(int ch, FILE *f)
+//{
+//	Serial_SendByte(ch);
+//	return ch;
+//}
 
 void Serial_Printf(char *format, ...)
 {

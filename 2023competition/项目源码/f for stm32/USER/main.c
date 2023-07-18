@@ -12,15 +12,17 @@
 #include "usart.h"
 #include "encoder.h"
 #include "oled.h"
-
+#include "delay.h"
+#include "usart.h"
 int main(void)
 {
-
+		delay_init();
+		Serial_Init();//串口和openmv传输测试
     // Encoder_Init();
     // uart_init(9600);
     // int value;
     OLED_Init();       // OLED初始化
-    OLED_ColorTurn(1); // 颜色反转
+//    OLED_ColorTurn(1); // 颜色反转
                        //    OLED_DisplayTurn(1); // 屏幕旋转
     // OLED_DisplayTurn(0);
     while (1) {
@@ -33,11 +35,22 @@ int main(void)
 //        OLED_ShowNum(1, 1, 6888, 4, 16, 1);
 //        OLED_ShowChinese(0,0,0,64,1);//中
 //		OLED_ShowChinese(0,0,1,32,1);//景
-		OLED_ShowChinese(36,0,2,16,1);//园
+//		OLED_ShowChinese(36,0,2,16,1);//园
 //		OLED_ShowChinese(54,0,3,16,1);//电
 //		OLED_ShowChinese(72,0,4,16,1);//子
 //		OLED_ShowChinese(90,0,5,16,1);//技
+			
+			
+			
+//			串口3调试
+//			OLED_ShowNum(5,1,Serial_RxPacket[0],2,16,1);
+//			OLED_ShowNum(25,1,Serial_RxPacket[1],2,16,1);
+//			OLED_ShowNum(45,1,Serial_RxPacket[2],2,16,1);
+//			OLED_ShowNum(65,1,Serial_RxPacket[3],2,16,1);
+	
+			
         OLED_Refresh();
+
         // value = (short)Read_Encoder(4);
         // printf("%d\n",value);
         // printf()

@@ -40,20 +40,20 @@
 void MPU6050_I2C_W_SCL(uint8_t BitValue)
 {
 	GPIO_WriteBit(GPIOB, GPIO_Pin_10, (BitAction)BitValue);
-	Delay_us(10);
+	delay_us(10);
 }
 
 void MPU6050_I2C_W_SDA(uint8_t BitValue)
 {
 	GPIO_WriteBit(GPIOB, GPIO_Pin_11, (BitAction)BitValue);
-	Delay_us(10);
+	delay_us(10);
 }
 
 uint8_t MPU6050_I2C_R_SDA(void)
 {
 	uint8_t BitValue;
 	BitValue = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_11);
-	Delay_us(10);
+	delay_us(10);
 	return BitValue;
 }
 
