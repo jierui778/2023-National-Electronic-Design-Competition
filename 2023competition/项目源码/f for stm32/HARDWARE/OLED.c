@@ -184,7 +184,20 @@ void OLED_ColorTurn(uint8_t i)
 			OLED_I2C_WriteByte(0xA7,OLED_CMD);//反色显示
 		}
 }
-
+//OLED屏幕旋转180度
+void OLED_DisplayTurn(uint8_t i)
+{
+	if(i==0)
+		{
+			OLED_I2C_WriteByte(0xC8,OLED_CMD);//正常显示
+			OLED_I2C_WriteByte(0xA1,OLED_CMD);
+		}
+	if(i==1)
+		{
+			OLED_I2C_WriteByte(0xC0,OLED_CMD);//反转显示
+			OLED_I2C_WriteByte(0xA0,OLED_CMD);
+		}
+}
 //画点
 //x:0~127
 //y:0~63
@@ -244,56 +257,211 @@ void OLED_DrawLine(uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2, uint8_t mode)
 
 
 
-// void OLED_DrawCircle(uint8_t x,uint8_t y,uint8_t r)
-// {
-// 	int a, b, num;
-// 	a = 0;
+void OLED_DrawCircle(uint8_t x,uint8_t y,uint8_t r,uint8_t mode)
+{
+	int a, b, num;
+	a = 0;
+	b = r;
+	while(2 * b * b >= r * r)      
+	{
+		OLED_DrawPoint(x + a, y - b, mode);             //  第1象限  
+		OLED_DrawPoint(x - a, y - b, mode);             //  第2象限  
+		OLED_DrawPoint(x - a, y + b, mode);             //  第3象限  
+		OLED_DrawPoint(x + a, y + b, mode);             //  第4象限  
 
-// 	b = r;
-// 	while(2 * b * b >= r * r)      
-// 	{
-// 		OLED_DrawPoint(x + a, y - b, 1);             //  第1象限  
-// 		OLED_DrawPoint(x - a, y - b, 1);             //  第2象限  
-// 		OLED_DrawPoint(x - a, y + b, 1);             //  第3象限  
-// 		OLED_DrawPoint(x + a, y + b, 1);             //  第4象限  
+		OLED_DrawPoint(x + b, y + a, mode);             //  第1象限  
+		OLED_DrawPoint(x + b, y - a, mode);             //  第2象限  
+		OLED_DrawPoint(x - b, y - a, mode);             //  第3象限  
+		OLED_DrawPoint(x - b, y + a, mode);             //  第4象限  
 
-// 		OLED_DrawPoint(x + b, y + a, 1);             //  第1象限  
-// 		OLED_DrawPoint(x + b, y - a, 1);             //  第2象限  
-// 		OLED_DrawPoint(x - b, y - a, 1);             //  第3象限  
-// 		OLED_DrawPoint(x - b, y + a, 1);             //  第4象限  
+		a++;
+		num = (a * a + b * b) - r*r; //计算画的点离圆心的距离
+		if(num > 0)//若离圆心的距离大于0则下一个点拉回来一个单位距离
+		{
+			b--;
+			a--;
+		}
+	}
+}
+void OLED_ShowChar(uint8_t x, uint8_t y, uint8_t chr,uint8_t size1,uint8_t mode)
+{
+	u8 i, m, temp, size2, chr1;
+	u8 x0 = x, y0 = y;
+	if (size1 == 8)
+		size2 = 6;
+	else
+		size2 = (size1 / 8 + ((size1 % 8) ? 1 : 0)) * (size1 / 2); // 得到字体一个字符对应点阵集所占的字节数
+	chr1 = chr - ' ';											   // 计算偏移后的值
+	for (i = 0; i < size2; i++)
+	{
+		if (size1 == 8)
+		{
+			temp = asc2_0806[chr1][i];
+		} // 调用0806字体
+		else if (size1 == 12)
+		{
+			temp = asc2_1206[chr1][i];
+		} // 调用1206字体
+		else if (size1 == 16)
+		{
+			temp = asc2_1608[chr1][i];
+		} // 调用1608字体
+		else if (size1 == 24)
+		{
+			temp = asc2_2412[chr1][i];
+		} // 调用2412字体
+		else
+			return;
+		for (m = 0; m < 8; m++)
+		{
+			if (temp & 0x01)
+				OLED_DrawPoint(x, y, mode);
+			else
+				OLED_DrawPoint(x, y, !mode);
+			temp >>= 1;
+			y++;
+		}
+		x++;
+		if ((size1 != 8) && ((x - x0) == size1 / 2))
+		{
+			x = x0;
+			y0 = y0 + 8;
+		}
+		y = y0;
+	}
+}
+//字体大小仍有问题
+void OLED_ShowString(u8 x, u8 y, u8 *chr, u8 size1, u8 mode)
+{
+	while ((*chr >= ' ') && (*chr <= '~')) // 判断是不是非法字符!
+	{
+		OLED_ShowChar(x, y, *chr, size1, mode);
+		if (size1 == 8)
+			x += 6;
+		else
+			x += size1 / 2;
+		chr++;
+	}
+}
 
-// 		a++;
-// 		num = (a * a + b * b) - r*r; //计算画的点离圆心的距离
-// 		if(num > 0)//若离圆心的距离大于0则下一个点拉回来一个单位距离
-// 		{
-// 			b--;
-// 			a--;
-// 		}
-// 	}
-// }
-/**
- * 
-  * @brief  OLED显示一个字符
-  * @param  x 行位置，范围：1~4
-  * @param  y 列位置，范围：1~16
-  * @param  Char 要显示的一个字符，范围：ASCII可见字符
-  * @param  Size 字体大小，范围：1~8
-  * @retval 无
-  */
-// void OLED_ShowChar(uint8_t Line, uint8_t Column, char Char)
-// {      	
-// 	uint8_t i;
-// 	OLED_SetCursor((Line - 1) * 2, (Column - 1) * 8);		//设置光标位置在上半部分
-// 	for (i = 0; i < 8; i++)
-// 	{
-// 		OLED_WriteData(OLED_F8x16[Char - ' '][i]);			//显示上半部分内容
-// 	}
-// 	OLED_SetCursor((Line - 1) * 2 + 1, (Column - 1) * 8);	//设置光标位置在下半部分
-// 	for (i = 0; i < 8; i++)
-// 	{
-// 		OLED_WriteData(OLED_F8x16[Char - ' '][i + 8]);		//显示下半部分内容
-// 	}
-// }
+// m^n
+int OLED_Pow(uint8_t m, uint8_t n)
+{
+	int result = 1;
+	while (n--)
+	{
+		result *= m;
+	}
+	return result;
+}
+//与中景园算法有出入
+void OLED_ShowNum(uint8_t x, uint8_t y, uint32_t Number, uint8_t Length, uint8_t size1, uint8_t mode)
+{
+	uint8_t t, temp;
+	uint8_t enshow = 0;
+	for (t = 0; t < Length; t++)
+	{
+		temp = (Number / OLED_Pow(10, Length - t - 1)) % 10;
+		if (enshow == 0 && t < (Length - 1))
+		{
+			if (temp == 0)
+			{
+				OLED_ShowChar(x + (size1 / 2) * t, y, ' ', size1, mode);
+				continue;
+			}
+			else
+				enshow = 1;
+		}
+		OLED_ShowChar(x + (size1 / 2) * t, y, temp + '0', size1, mode);
+	}
+}
+
+
+
+void OLED_ShowChinese(uint8_t x, uint8_t y, uint8_t num,uint8_t size1,uint8_t mode)
+{
+	uint8_t m, temp;
+	uint8_t x0 = x, y0 = y;
+	uint16_t i, size3 = (size1 / 8 + ((size1 % 8) ? 1 : 0)) * size1; // 得到字体一个字符对应点阵集所占的字节数
+	for (i = 0; i < size3; i++)
+	{
+		if (size1 == 16)
+		{
+			temp = Hzk1[num][i];
+		} // 调用16*16字体
+		else if (size1 == 24)
+		{
+			temp = Hzk2[num][i];
+		} // 调用24*24字体
+		else if (size1 == 32)
+		{
+			temp = Hzk3[num][i];
+		} // 调用32*32字体
+		else if (size1 == 64)
+		{
+			temp = Hzk4[num][i];
+		} // 调用64*64字体
+		else
+			return;
+		for (m = 0; m < 8; m++)
+		{
+			if (temp & 0x01)
+				OLED_DrawPoint(x, y, mode);
+			else
+				OLED_DrawPoint(x, y, !mode);
+			temp >>= 1;
+			y++;
+		}
+		x++;
+		if ((x - x0) == size1)
+		{
+			x = x0;
+			y0 = y0 + 8;
+		}
+		y = y0;
+	}
+}
+
+void OLED_ScrollDisplay(u8 num, u8 space, u8 mode)
+{
+	u8 i, n, t = 0, m = 0, r;
+	while (1)
+	{
+		if (m == 0)
+		{
+			OLED_ShowChinese(128, 24, t, 16, mode); // 写入一个汉字保存在OLED_GRAM[][]数组中
+			t++;
+		}
+		if (t == num)
+		{
+			for (r = 0; r < 16 * space; r++) // 显示间隔
+			{
+				for (i = 1; i < 144; i++)
+				{
+					for (n = 0; n < 8; n++)
+					{
+						OLED_GRAM[i - 1][n] = OLED_GRAM[i][n];
+					}
+				}
+				OLED_Refresh();
+			}
+			t = 0;
+		}
+		m++;
+		if (m == 16)
+		{
+			m = 0;
+		}
+		for (i = 1; i < 144; i++) // 实现左移
+		{
+			for (n = 0; n < 8; n++)
+			{
+				OLED_GRAM[i - 1][n] = OLED_GRAM[i][n];
+			}
+		}
+		OLED_Refresh();
+	}
+}
 
 // /**
 //   * @brief  OLED显示字符串

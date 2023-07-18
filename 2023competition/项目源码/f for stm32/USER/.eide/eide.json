@@ -109,6 +109,12 @@
             "path": "../HARDWARE/encoder.h"
           },
           {
+            "path": "../HARDWARE/MPU6050.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050.h"
+          },
+          {
             "path": "../HARDWARE/OLED_Font.h"
           },
           {

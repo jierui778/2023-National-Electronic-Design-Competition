@@ -21,14 +21,14 @@ PID TraceTurndate=
 
 
 
-int Position_PID(float Encoder,float Target)
-{
-    static float Bias,LastBias,PrevBias;
-    static float Integral;
-    static float result;
-    Bias=Encoder-Target;
-    Integral+=Bias;
-    result=SpeedDate.kp*Bias+SpeedDate.ki*Integral+SpeedDate.kd*(Bias-LastBias);
-    LastBias=Bias;
-    return result;
-}   
+//int Position_PID(float Encoder,float Target)
+//{
+//    static float Bias,LastBias,PrevBias;
+//    static float Integral;
+//    static float result;
+//    Bias=Encoder-Target;
+//    Integral+=Bias;
+//    result=SpeedDate.kp*Bias+SpeedDate.ki*Integral+SpeedDate.kd*(Bias-LastBias);
+//    LastBias=Bias;
+//    return result;
+//}   

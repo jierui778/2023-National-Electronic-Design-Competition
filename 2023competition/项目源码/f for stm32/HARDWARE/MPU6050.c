@@ -1,5 +1,5 @@
-//ËµÃ÷:ÕâÀïÊ¹ÓÃµÄÊÇPB10¡¢11µÄÒý½Å
-//ÓÉÓÚÊÇÈí¼þÄ£Äâ£¬È¡ÆäËûÒý½ÅÒ²¿ÉÒÔ
+//è¯´æ˜Ž:è¿™é‡Œä½¿ç”¨çš„æ˜¯PB10ã€11çš„å¼•è„š
+//ç”±äºŽæ˜¯è½¯ä»¶æ¨¡æ‹Ÿï¼Œå–å…¶ä»–å¼•è„šä¹Ÿå¯ä»¥
 
 #include "stm32f10x.h"                  // Device header
 #include "delay.h"
