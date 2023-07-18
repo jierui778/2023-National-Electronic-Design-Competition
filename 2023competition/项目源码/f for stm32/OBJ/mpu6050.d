@@ -28,5 +28,6 @@
 ..\obj\mpu6050.o: ..\FWLIB\inc\stm32f10x_usart.h
 ..\obj\mpu6050.o: ..\FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\mpu6050.o: ..\FWLIB\inc\misc.h
+..\obj\mpu6050.o: ..\HARDWARE\MPU6050.h
 ..\obj\mpu6050.o: ..\SYSTEM\delay\delay.h
 ..\obj\mpu6050.o: ..\SYSTEM\sys\sys.h
