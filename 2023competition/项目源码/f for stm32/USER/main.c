@@ -17,7 +17,7 @@ int main(void)
 	
 	while (1)
 	{
-		MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ);
+		MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ);//返回6轴传感器的值
 		OLED_ShowSignedNum(2, 1, AX, 5);
 		OLED_ShowSignedNum(3, 1, AY, 5);
 		OLED_ShowSignedNum(4, 1, AZ, 5);
