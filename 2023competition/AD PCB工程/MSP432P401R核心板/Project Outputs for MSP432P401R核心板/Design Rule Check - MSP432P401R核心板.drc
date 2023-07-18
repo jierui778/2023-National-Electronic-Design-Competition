@@ -1,0 +1,553 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\JIERUI\Desktop\2023电赛\AD PCB工程\MSP432P401R核心板\MSP432P401R核心板.PcbDoc
+Date     : 2023/7/14
+Time     : 9:39:18
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.037mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Top Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.037mm < 0.127mm) Between Polygon Arc (-0.246mm,8.775mm) on Top Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.007mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.007mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Top Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (0.254mm,8.501mm) on Top Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.04mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.04mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.008mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.008mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.02mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.02mm < 0.127mm) Between Polygon Arc (-0.762mm,8.509mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.006mm < 0.127mm) Between Polygon Arc (1.143mm,20.066mm) on Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.006mm < 0.127mm) Between Polygon Arc (1.143mm,20.066mm) on Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (1.143mm,20.066mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (1.143mm,20.066mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.239mm,8.859mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.246mm,8.852mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Arc (-1.246mm,8.852mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.246mm,8.852mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.246mm,8.852mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.246mm,8.852mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (1.651mm,19.939mm) on Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (1.651mm,19.939mm) on Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (1.651mm,19.939mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (1.651mm,19.939mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.766mm,8.474mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.766mm,8.474mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Arc (-1.766mm,8.474mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Arc (-1.766mm,8.474mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.766mm,8.474mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-1.766mm,8.474mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-11.953mm,-3.063mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-11.953mm,-3.063mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.03mm < 0.127mm) Between Polygon Arc (-2.246mm,8.85mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.03mm < 0.127mm) Between Polygon Arc (-2.246mm,8.85mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-2.246mm,8.85mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-2.246mm,8.85mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.031mm < 0.127mm) Between Polygon Arc (3.683mm,24.892mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.031mm < 0.127mm) Between Polygon Arc (3.683mm,24.892mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.031mm < 0.127mm) Between Polygon Arc (3.683mm,24.892mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.031mm < 0.127mm) Between Polygon Arc (3.683mm,24.892mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.031mm < 0.127mm) Between Polygon Arc (3.683mm,24.892mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.031mm < 0.127mm) Between Polygon Arc (3.683mm,24.892mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-3.737mm,8.582mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-3.737mm,8.582mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-3.737mm,8.582mm) on Top Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-3.737mm,8.582mm) on Top Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-4.246mm,9.089mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-4.246mm,9.089mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Arc (-4.246mm,9.089mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Arc (-4.246mm,9.089mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.254mm,-3.937mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.254mm,-3.937mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.254mm,-3.937mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.254mm,-3.937mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.254mm,-3.937mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.254mm,-3.937mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.318mm,24.892mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.318mm,24.892mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.318mm,24.892mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (4.318mm,24.892mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-4.746mm,8.589mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-4.746mm,8.589mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-4.746mm,8.589mm) on Top Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-4.746mm,8.589mm) on Top Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-4.746mm,8.589mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-4.746mm,8.589mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.038mm < 0.127mm) Between Polygon Arc (4.754mm,-4.318mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.038mm < 0.127mm) Between Polygon Arc (4.754mm,-4.318mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.08mm,-17.907mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.08mm,-17.907mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Bottom Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Bottom Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.246mm,9.105mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.067mm < 0.127mm) Between Polygon Arc (5.254mm,-4.699mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.067mm < 0.127mm) Between Polygon Arc (5.254mm,-4.699mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.117mm < 0.127mm) Between Polygon Arc (-5.746mm,8.199mm) on Top Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.746mm,8.605mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.746mm,8.605mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Arc (-5.746mm,8.605mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Arc (-5.746mm,8.605mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.746mm,8.605mm) on Top Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-5.746mm,8.605mm) on Top Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.051mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Top Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Top Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (5.754mm,-5.08mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.029mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Top Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.029mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Top Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (6.223mm,-5.461mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.007mm < 0.127mm) Between Polygon Arc (6.254mm,-5.492mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.007mm < 0.127mm) Between Polygon Arc (6.254mm,-5.492mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-8.072mm,-1.127mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-1.627mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-2.627mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-2.627mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-2.627mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-2.627mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-2.627mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.763mm,-2.627mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Top Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Top Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-8.818mm,-4.627mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-8.819mm,-3.627mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.115mm < 0.127mm) Between Polygon Arc (-8.819mm,-3.627mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.987mm,-2.127mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-8.987mm,-2.127mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.014mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.014mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.205mm,-1.909mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.116mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Arc (-9.334mm,-4.127mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.084mm < 0.127mm) Between Polygon Track (-0.045mm,5.009mm)(-0.045mm,8.447mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-0.045mm,5.009mm)(-0.045mm,8.447mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-0.045mm,9.003mm)(-0.045mm,9.521mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.107mm < 0.127mm) Between Polygon Track (0.355mm,0.784mm)(0.355mm,6.712mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.02mm < 0.127mm) Between Polygon Track (0.355mm,5.409mm)(0.355mm,8.197mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (0.355mm,8.788mm)(0.355mm,9.121mm) on Top Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-0.445mm,4.609mm)(-0.445mm,8.545mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.017mm < 0.127mm) Between Polygon Track (-0.445mm,4.609mm)(-0.445mm,8.545mm) on Bottom Layer And Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.012mm < 0.127mm) Between Polygon Track (0.45mm,5.215mm)(0.45mm,6.762mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-0.539mm,8.303mm)(0.023mm,8.303mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-0.539mm,8.303mm)(0.023mm,8.303mm) on Bottom Layer And Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.12mm < 0.127mm) Between Polygon Track (-0.579mm,19.798mm)(0.725mm,19.798mm) on Top Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.127mm) Between Polygon Track (0.755mm,17.322mm)(0.755mm,35.346mm) on Bottom Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.068mm < 0.127mm) Between Polygon Track (0.775mm,19.044mm)(0.775mm,20.552mm) on Top Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (0.775mm,20.303mm)(0.952mm,20.303mm) on Top Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.009mm < 0.127mm) Between Polygon Track (-0.787mm,5.103mm)(0.471mm,5.103mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (0.839mm,16.382mm)(0.839mm,20.066mm) on Top Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-0.845mm,5.46mm)(-0.845mm,8.217mm) on Bottom Layer And Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (0.893mm,-3.633mm)(4.254mm,-3.633mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (0.928mm,20.281mm)(3.379mm,22.732mm) on Bottom Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.048mm,5.103mm)(2.991mm,5.103mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.028mm < 0.127mm) Between Polygon Track (1.048mm,5.103mm)(2.991mm,5.103mm) on Top Layer And Via (3.302mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.028mm < 0.127mm) Between Polygon Track (-1.057mm,9.103mm)(0.373mm,9.103mm) on Top Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.014mm < 0.127mm) Between Polygon Track (-1.057mm,9.103mm)(0.373mm,9.103mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.058mm,5.276mm)(1.058mm,6.762mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.119mm < 0.127mm) Between Polygon Track (1.058mm,5.503mm)(2.95mm,5.503mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.066mm,8.509mm)(-1.066mm,8.607mm) on Bottom Layer And Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.066mm,8.509mm)(-1.066mm,8.607mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.155mm,20.37mm)(1.155mm,21.697mm) on Top Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.093mm < 0.127mm) Between Polygon Track (1.155mm,4.511mm)(1.155mm,6.712mm) on Top Layer And Via (0.762mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.044mm < 0.127mm) Between Polygon Track (-1.165mm,-4.097mm)(3.95mm,-4.097mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.245mm,5.701mm)(-1.245mm,8.548mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.011mm < 0.127mm) Between Polygon Track (-1.245mm,9.163mm)(-1.245mm,9.602mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.334mm,20.303mm)(4.522mm,20.303mm) on Top Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.064mm < 0.127mm) Between Polygon Track (1.334mm,20.303mm)(4.522mm,20.303mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.462mm,8.474mm)(-1.462mm,8.639mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.462mm,8.474mm)(-1.462mm,8.639mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.515mm,8.303mm)(-0.985mm,8.303mm) on Bottom Layer And Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.515mm,8.303mm)(-0.985mm,8.303mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.555mm,17.322mm)(1.555mm,19.651mm) on Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.555mm,20.227mm)(1.555mm,21.697mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.55mm,8.688mm)(-1.55mm,8.852mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.55mm,8.688mm)(-1.55mm,8.852mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.626mm,-3.697mm)(4.067mm,-3.697mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.099mm < 0.127mm) Between Polygon Track (-1.645mm,8.753mm)(-1.645mm,9.851mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-1.645mm,8.753mm)(-1.645mm,9.851mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.65mm,-5.765mm)(6.223mm,-5.765mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.955mm,16.002mm)(1.955mm,19.939mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (1.955mm,19.95mm)(1.955mm,21.697mm) on Top Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-10.264mm,-2.897mm)(-9.597mm,-2.897mm) on Top Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-10.336mm,-3.323mm)(-9.63mm,-3.323mm) on Bottom Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.006mm < 0.127mm) Between Polygon Track (-10.341mm,20.303mm)(0.95mm,20.303mm) on Bottom Layer And Via (1.143mm,20.066mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Track (-11.649mm,-2.897mm)(-11.072mm,-2.897mm) on Top Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-11.649mm,-3.063mm)(-11.649mm,-2.717mm) on Top Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.084mm < 0.127mm) Between Polygon Track (-11.649mm,-3.297mm)(-11.353mm,-3.297mm) on Top Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-11.649mm,-3.379mm)(-11.649mm,-3.063mm) on Top Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-11.759mm,-3.297mm)(-11.02mm,-3.297mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-11.796mm,-3.323mm)(-11mm,-3.323mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-12.045mm,-2.773mm)(-12.045mm,-0.862mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-12.504mm,-0.403mm)(-9.688mm,-3.219mm) on Bottom Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-13.584mm,-3.323mm)(-12.11mm,-3.323mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-13.61mm,-3.297mm)(-12.147mm,-3.297mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-14.01mm,-2.897mm)(-12.208mm,-2.897mm) on Bottom Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Track (-14.047mm,-2.897mm)(-12.257mm,-2.897mm) on Top Layer And Via (-11.953mm,-3.063mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-14.178mm,-4.823mm)(-9.05mm,-4.823mm) on Top Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.058mm < 0.127mm) Between Polygon Track (-17.139mm,24.703mm)(3.379mm,24.703mm) on Bottom Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.006mm < 0.127mm) Between Polygon Track (-2.077mm,9.103mm)(-1.421mm,9.103mm) on Top Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-2.077mm,9.103mm)(-1.421mm,9.103mm) on Top Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-2.07mm,8.474mm)(-2.07mm,8.602mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-2.07mm,8.474mm)(-2.07mm,8.602mm) on Bottom Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-2.442mm,9.082mm)(-2.442mm,9.851mm) on Top Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-2.445mm,5.675mm)(-2.445mm,8.62mm) on Bottom Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.069mm < 0.127mm) Between Polygon Track (-2.445mm,9.161mm)(-2.445mm,12.193mm) on Bottom Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-2.55mm,8.85mm)(-2.55mm,8.93mm) on Bottom Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (2.833mm,25.312mm)(3.468mm,24.677mm) on Top Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.055mm < 0.127mm) Between Polygon Track (2.95mm,5.255mm)(2.95mm,6.762mm) on Top Layer And Via (3.302mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.155mm,4.797mm)(3.155mm,4.941mm) on Top Layer And Via (3.302mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.433mm,8.582mm)(-3.433mm,12.901mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.056mm < 0.127mm) Between Polygon Track (-3.433mm,9.103mm)(-2.496mm,9.103mm) on Bottom Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.555mm,-7.018mm)(3.555mm,5.038mm) on Top Layer And Via (3.302mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.55mm,8.821mm)(-3.55mm,9.686mm) on Top Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.588mm,5.103mm)(7.172mm,5.103mm) on Top Layer And Via (3.302mm,5.207mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.595mm,-17.614mm)(-3.214mm,-17.233mm) on Bottom Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.616mm,8.303mm)(-2.018mm,8.303mm) on Bottom Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.616mm,8.303mm)(-2.018mm,8.303mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Track (-3.645mm,-17.095mm)(-3.645mm,-14.559mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Polygon Track (-3.645mm,-17.896mm)(-3.645mm,-17.703mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.012mm < 0.127mm) Between Polygon Track (-3.645mm,-24.334mm)(-3.645mm,-17.664mm) on Bottom Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.645mm,5.606mm)(-3.645mm,8.292mm) on Bottom Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.645mm,8.872mm)(-3.645mm,9.782mm) on Top Layer And Via (-3.737mm,8.582mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.026mm < 0.127mm) Between Polygon Track (-3.678mm,-17.697mm)(5.014mm,-17.697mm) on Bottom Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.81mm,-17.703mm)(-2.158mm,-17.703mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-3.84mm,-17.702mm)(2.479mm,-24.02mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.902mm,25.103mm)(4.099mm,25.103mm) on Top Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.902mm,25.103mm)(4.099mm,25.103mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.921mm,24.703mm)(4.08mm,24.703mm) on Top Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.921mm,24.703mm)(4.08mm,24.703mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.955mm,22.305mm)(3.955mm,24.756mm) on Top Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.127mm) Between Polygon Track (3.955mm,22.305mm)(3.955mm,24.756mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.955mm,25.028mm)(3.955mm,30.938mm) on Top Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.127mm) Between Polygon Track (3.955mm,25.028mm)(3.955mm,30.938mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.955mm,25.028mm)(3.955mm,35.346mm) on Bottom Layer And Via (3.683mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.088mm < 0.127mm) Between Polygon Track (3.955mm,25.028mm)(3.955mm,35.346mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (3.955mm,-3.883mm)(3.955mm,-3.311mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.045mm,-17.206mm)(-4.045mm,-14.959mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.045mm,9.317mm)(-4.045mm,10.182mm) on Top Layer And Via (-4.246mm,9.089mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.103mm,25.107mm)(4.76mm,25.764mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.355mm,22.305mm)(4.355mm,24.59mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.355mm,25.194mm)(4.355mm,35.346mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.355mm,-3.65mm)(4.355mm,-3.452mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.355mm,-3.65mm)(4.355mm,-3.452mm) on Top Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.441mm,-3.697mm)(12.269mm,-3.697mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.442mm,8.589mm)(-4.442mm,8.857mm) on Bottom Layer And Via (-4.246mm,9.089mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.442mm,8.589mm)(-4.442mm,8.857mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.445mm,2.474mm)(-4.445mm,8.545mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.445mm,9.319mm)(-4.445mm,13.715mm) on Top Layer And Via (-4.246mm,9.089mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.533mm,24.677mm)(5.279mm,25.423mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.537mm,25.103mm)(6.336mm,25.103mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.006mm < 0.127mm) Between Polygon Track (4.559mm,24.703mm)(6.178mm,24.703mm) on Top Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.622mm,22.606mm)(4.622mm,24.892mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.058mm < 0.127mm) Between Polygon Track (4.622mm,24.703mm)(6.178mm,24.703mm) on Bottom Layer And Via (4.318mm,24.892mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.755mm,-4.014mm)(4.755mm,-3.226mm) on Bottom Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.755mm,-4.014mm)(4.755mm,-3.226mm) on Top Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.084mm < 0.127mm) Between Polygon Track (-4.845mm,-17.603mm)(-4.845mm,-15.759mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.845mm,5.544mm)(-4.845mm,8.302mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.845mm,8.876mm)(-4.845mm,13.315mm) on Top Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.101mm < 0.127mm) Between Polygon Track (-4.845mm,8.876mm)(-4.845mm,13.315mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.942mm,8.821mm)(-4.942mm,9.105mm) on Top Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-4.942mm,8.821mm)(-4.942mm,9.105mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.963mm,-4.097mm)(12.141mm,-4.097mm) on Bottom Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (4.963mm,-4.097mm)(7.079mm,-4.097mm) on Top Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.048mm,-4.395mm)(5.254mm,-4.395mm) on Bottom Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.048mm,-4.395mm)(5.254mm,-4.395mm) on Bottom Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.058mm,-4.467mm)(5.058mm,-4.318mm) on Top Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.058mm,-4.467mm)(5.058mm,-4.318mm) on Top Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.026mm < 0.127mm) Between Polygon Track (-5.08mm,-17.603mm)(-4.064mm,-17.603mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.08mm,-17.603mm)(-4.064mm,-17.603mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.08mm,-18.211mm)(-4.19mm,-18.211mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.101mm < 0.127mm) Between Polygon Track (5.155mm,-4.395mm)(5.155mm,-3.231mm) on Bottom Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.02mm < 0.127mm) Between Polygon Track (5.155mm,-4.395mm)(5.155mm,-3.231mm) on Bottom Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.245mm,-18.836mm)(-5.245mm,-18.162mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.245mm,5.7mm)(-5.245mm,8.801mm) on Bottom Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.442mm,8.605mm)(-5.442mm,8.873mm) on Bottom Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.442mm,8.605mm)(-5.442mm,8.873mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.025mm < 0.127mm) Between Polygon Track (-5.442mm,8.703mm)(-5.05mm,8.703mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.102mm < 0.127mm) Between Polygon Track (-5.442mm,8.703mm)(-5.05mm,8.703mm) on Bottom Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.019mm < 0.127mm) Between Polygon Track (-5.442mm,8.703mm)(-5.05mm,8.703mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.481mm,-4.497mm)(11.741mm,-4.497mm) on Bottom Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.481mm,-4.497mm)(7.104mm,-4.497mm) on Top Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.548mm,-4.776mm)(5.754mm,-4.776mm) on Bottom Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.548mm,-4.776mm)(5.754mm,-4.776mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.555mm,-4.655mm)(5.555mm,-3.453mm) on Bottom Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.555mm,-4.655mm)(5.555mm,-3.453mm) on Top Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.558mm,-4.848mm)(5.558mm,-4.699mm) on Top Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.558mm,-4.848mm)(5.558mm,-4.699mm) on Top Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.55mm,8.837mm)(-5.55mm,9.105mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.55mm,8.837mm)(-5.55mm,9.105mm) on Top Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.645mm,5.436mm)(-5.645mm,8.318mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.712mm,8.303mm)(-4.849mm,8.303mm) on Bottom Layer And Via (-4.746mm,8.589mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-5.712mm,8.303mm)(-4.849mm,8.303mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.105mm < 0.127mm) Between Polygon Track (5.955mm,-10.325mm)(5.955mm,-5.765mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.955mm,-4.852mm)(5.955mm,-3.307mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (5.997mm,-4.897mm)(11.341mm,-4.897mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.045mm,0.327mm)(-6.045mm,8.551mm) on Bottom Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.045mm,-18.041mm)(-6.045mm,-16.959mm) on Top Layer And Via (-6.223mm,-18.288mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.045mm,8.659mm)(-6.045mm,12.774mm) on Top Layer And Via (-5.746mm,8.605mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (6.048mm,-5.157mm)(6.223mm,-5.157mm) on Bottom Layer And Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (6.048mm,-5.157mm)(6.223mm,-5.157mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (6.355mm,-5.187mm)(6.355mm,3.949mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (6.355mm,-9.883mm)(6.355mm,-5.735mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.383mm,-17.297mm)(-4.096mm,-17.297mm) on Top Layer And Via (-3.81mm,-17.399mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.445mm,-18.081mm)(-6.445mm,-17.359mm) on Top Layer And Via (-6.223mm,-18.288mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.445mm,-23.788mm)(-6.445mm,-18.495mm) on Top Layer And Via (-6.223mm,-18.288mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (6.479mm,-5.297mm)(10.941mm,-5.297mm) on Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.011mm < 0.127mm) Between Polygon Track (6.487mm,-5.297mm)(7.125mm,-5.297mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.036mm < 0.127mm) Between Polygon Track (6.558mm,-7.157mm)(6.558mm,-5.492mm) on Top Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-6.783mm,-17.697mm)(-5.3mm,-17.697mm) on Top Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-7.183mm,-18.097mm)(-6.46mm,-18.097mm) on Top Layer And Via (-6.223mm,-18.288mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.114mm < 0.127mm) Between Polygon Track (-7.543mm,9.503mm)(-3.55mm,9.503mm) on Top Layer And Via (-4.246mm,9.089mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.098mm < 0.127mm) Between Polygon Track (-7.543mm,9.503mm)(-3.55mm,9.503mm) on Top Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.018mm < 0.127mm) Between Polygon Track (-8.445mm,-18.683mm)(-8.445mm,-0.526mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.018mm < 0.127mm) Between Polygon Track (-8.445mm,-18.683mm)(-8.445mm,-0.526mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.073mm < 0.127mm) Between Polygon Track (-8.445mm,-18.683mm)(-8.445mm,-0.526mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.074mm < 0.127mm) Between Polygon Track (-8.445mm,-18.683mm)(-8.445mm,-0.526mm) on Bottom Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-8.467mm,-1.697mm)(-5.765mm,-1.697mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-8.523mm,-3.697mm)(-5.613mm,-3.697mm) on Bottom Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-8.624mm,-2.897mm)(-5.997mm,-2.897mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-8.763mm,-1.323mm)(-8.481mm,-1.323mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-8.845mm,-1.334mm)(-8.845mm,-0.931mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-8.845mm,-2.323mm)(-8.845mm,-1.92mm) on Bottom Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.015mm < 0.127mm) Between Polygon Track (-8.845mm,-2.323mm)(-8.845mm,-1.92mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.06mm < 0.127mm) Between Polygon Track (-8.845mm,-2.323mm)(-8.845mm,-1.92mm) on Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.005mm < 0.127mm) Between Polygon Track (-8.845mm,-4.323mm)(-8.845mm,-3.931mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.005mm < 0.127mm) Between Polygon Track (-8.845mm,-4.323mm)(-8.845mm,-3.931mm) on Bottom Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.005mm < 0.127mm) Between Polygon Track (-8.845mm,-6.928mm)(-8.845mm,-4.931mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.058mm,-2.323mm)(-8.763mm,-2.323mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.102mm,-3.931mm)(-8.819mm,-3.931mm) on Bottom Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.102mm,-3.931mm)(-8.819mm,-3.931mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.102mm,-4.323mm)(-8.818mm,-4.323mm) on Bottom Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.102mm,-4.323mm)(-8.818mm,-4.323mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.132mm,-2.931mm)(-8.763mm,-2.931mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.03mm < 0.127mm) Between Polygon Track (-9.132mm,-2.931mm)(-8.763mm,-2.931mm) on Bottom Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.03mm < 0.127mm) Between Polygon Track (-9.146mm,-3.297mm)(-6.067mm,-3.297mm) on Bottom Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.146mm,-3.297mm)(-6.067mm,-3.297mm) on Bottom Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.124mm < 0.127mm) Between Polygon Track (-9.17mm,-2.211mm)(-9.058mm,-2.323mm) on Bottom Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.17mm,-2.211mm)(-9.058mm,-2.323mm) on Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.245mm,-1.608mm)(-9.245mm,-1.166mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.092mm < 0.127mm) Between Polygon Track (-9.245mm,-2.823mm)(-9.245mm,-2.299mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.04mm < 0.127mm) Between Polygon Track (-9.245mm,-2.823mm)(-9.245mm,-2.299mm) on Top Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.334mm,-3.823mm)(-9.051mm,-3.823mm) on Top Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.334mm,-3.823mm)(-9.051mm,-3.823mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.334mm,-4.431mm)(-9.05mm,-4.431mm) on Top Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.334mm,-4.431mm)(-9.05mm,-4.431mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.03mm < 0.127mm) Between Polygon Track (-9.376mm,-1.297mm)(-8.492mm,-1.297mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.398mm,-2.823mm)(-8.995mm,-2.823mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.398mm,-2.823mm)(-8.995mm,-2.823mm) on Top Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.398mm,-3.431mm)(-9.051mm,-3.431mm) on Top Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.398mm,-3.431mm)(-9.051mm,-3.431mm) on Top Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.42mm,-2.124mm)(-9.203mm,-2.342mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.011mm < 0.127mm) Between Polygon Track (-9.645mm,-4.823mm)(-9.645mm,-3.304mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.645mm,-4.823mm)(-9.645mm,-3.304mm) on Top Layer And Via (-9.398mm,-3.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.968mm,-2.097mm)(-9.444mm,-2.097mm) on Top Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.983mm,-3.697mm)(-9.115mm,-3.697mm) on Top Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Polygon Track (-9.983mm,-4.097mm)(-9.637mm,-4.097mm) on Top Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (-0.139mm,8.882mm)(16.883mm,8.882mm) on Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-0.246mm,7.611mm)(-0.246mm,8.775mm) on Top Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.119mm < 0.127mm) Between Track (-0.289mm,9.271mm)(16.733mm,9.271mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.11mm < 0.127mm) Between Track (-0.762mm,8.509mm)(-0.762mm,8.798mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (-0.762mm,8.798mm)(-0.289mm,9.271mm) on Bottom Layer And Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.11mm < 0.127mm) Between Track (-0.762mm,8.798mm)(-0.289mm,9.271mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (1.051mm,-4.318mm)(4.754mm,-4.318mm) on Bottom Layer And Via (4.254mm,-3.937mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.072mm < 0.127mm) Between Track (1.143mm,20.066mm)(3.683mm,22.606mm) on Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.107mm < 0.127mm) Between Track (-1.246mm,7.611mm)(-1.246mm,8.852mm) on Top Layer And Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (1.366mm,-5.08mm)(5.754mm,-5.08mm) on Bottom Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (-1.766mm,8.871mm)(-0.604mm,10.033mm) on Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.103mm < 0.127mm) Between Track (-1.766mm,8.871mm)(-0.604mm,10.033mm) on Bottom Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.068mm < 0.127mm) Between Track (-10.839mm,11.982mm)(-10.839mm,12.402mm) on Bottom Layer And Via (-10.267mm,12.129mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (-10.839mm,11.982mm)(-9.779mm,10.922mm) on Bottom Layer And Via (-10.267mm,12.129mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.035mm < 0.127mm) Between Track (-10.839mm,11.982mm)(-9.779mm,10.922mm) on Bottom Layer And Via (-10.541mm,10.922mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-13.788mm,-4.627mm)(-8.818mm,-4.627mm) on Bottom Layer And Via (-9.334mm,-4.127mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-14.304mm,-5.127mm)(-7.484mm,-5.127mm) on Top Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.004mm < 0.127mm) Between Track (-18.065mm,5.588mm)(-9.398mm,-3.079mm) on Bottom Layer And Via (-12.858mm,-0.158mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.103mm < 0.127mm) Between Track (-2.246mm,7.611mm)(-2.246mm,8.85mm) on Top Layer And Via (-1.766mm,8.474mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-2.746mm,7.611mm)(-2.746mm,9.851mm) on Top Layer And Via (-2.246mm,8.85mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (4.254mm,-7.865mm)(4.254mm,-3.937mm) on Top Layer And Via (4.754mm,-4.318mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (4.754mm,-7.865mm)(4.754mm,-4.318mm) on Top Layer And Via (5.254mm,-4.699mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-5.746mm,8.605mm)(-5.746mm,13.304mm) on Bottom Layer And Via (-5.246mm,9.105mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.118mm < 0.127mm) Between Track (-6.161mm,-18.288mm)(-4.191mm,-16.318mm) on Bottom Layer And Via (-5.08mm,-17.907mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-8.987mm,-2.127mm)(-7.484mm,-2.127mm) on Top Layer And Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-8.987mm,-2.127mm)(-7.484mm,-2.127mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.099mm < 0.127mm) Between Track (-9.182mm,0.373mm)(-7.484mm,0.373mm) on Top Layer And Via (-8.362mm,-0.103mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-9.334mm,-4.127mm)(-7.484mm,-4.127mm) on Top Layer And Via (-8.818mm,-4.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-9.334mm,-4.127mm)(-7.484mm,-4.127mm) on Top Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-9.398mm,-3.127mm)(-7.484mm,-3.127mm) on Top Layer And Via (-8.763mm,-2.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.123mm < 0.127mm) Between Track (-9.398mm,-3.127mm)(-7.484mm,-3.127mm) on Top Layer And Via (-8.819mm,-3.627mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.07mm < 0.127mm) Between Via (-0.246mm,8.775mm) from Top Layer to Bottom Layer And Via (0.254mm,8.501mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.093mm < 0.127mm) Between Via (-0.762mm,8.509mm) from Top Layer to Bottom Layer And Via (-1.246mm,8.852mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.104mm < 0.127mm) Between Via (5.754mm,-5.08mm) from Top Layer to Bottom Layer And Via (6.223mm,-5.461mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.025mm < 0.127mm) Between Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+Rule Violations :427
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.203mm) (Max=1.27mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (3.175mm > 2.54mm) Pad *-1(-20.447mm,30.734mm) on Multi-Layer Actual Hole Size = 3.175mm
+   Violation between Hole Size Constraint: (3.175mm > 2.54mm) Pad *-1(-20.447mm,-32.512mm) on Multi-Layer Actual Hole Size = 3.175mm
+   Violation between Hole Size Constraint: (3.175mm > 2.54mm) Pad *-1(20.955mm,-32.512mm) on Multi-Layer Actual Hole Size = 3.175mm
+   Violation between Hole Size Constraint: (3.175mm > 2.54mm) Pad *-1(21.209mm,30.734mm) on Multi-Layer Actual Hole Size = 3.175mm
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (0.224mm < 0.254mm) Between Via (1.143mm,20.066mm) from Top Layer to Bottom Layer And Via (1.651mm,19.939mm) from Top Layer to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.225mm < 0.254mm) Between Via (-8.763mm,-1.627mm) from Top Layer to Bottom Layer And Via (-9.205mm,-1.909mm) from Top Layer to Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.224mm < 0.254mm) Between Text "C1" (-1.25mm,-13.952mm) on Top Overlay And Track (-0.919mm,-14.366mm)(-0.919mm,-13.066mm) on Top Overlay Silk Text to Silk Clearance [0.224mm]
+   Violation between Silk To Silk Clearance Constraint: (0.238mm < 0.254mm) Between Text "C10" (-13.727mm,-2.321mm) on Top Overlay And Track (-12.603mm,-2.809mm)(-12.603mm,-1.509mm) on Top Overlay Silk Text to Silk Clearance [0.238mm]
+   Violation between Silk To Silk Clearance Constraint: (0.146mm < 0.254mm) Between Text "C11" (7.385mm,13.173mm) on Top Overlay And Track (7.336mm,12.969mm)(7.336mm,11.669mm) on Top Overlay Silk Text to Silk Clearance [0.146mm]
+   Violation between Silk To Silk Clearance Constraint: (0.097mm < 0.254mm) Between Text "C11" (7.385mm,13.173mm) on Top Overlay And Track (7.336mm,12.969mm)(8.255mm,12.969mm) on Top Overlay Silk Text to Silk Clearance [0.097mm]
+   Violation between Silk To Silk Clearance Constraint: (0.209mm < 0.254mm) Between Text "C12" (-2.296mm,13.427mm) on Top Overlay And Track (-2.555mm,13.111mm)(-1.255mm,13.111mm) on Top Overlay Silk Text to Silk Clearance [0.209mm]
+   Violation between Silk To Silk Clearance Constraint: (0.224mm < 0.254mm) Between Text "C2" (5.313mm,-13.45mm) on Top Overlay And Track (4.982mm,-14.366mm)(4.982mm,-13.066mm) on Top Overlay Silk Text to Silk Clearance [0.224mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C2" (5.313mm,-13.45mm) on Top Overlay And Track (5.629mm,-13.858mm)(5.629mm,-12.558mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C2" (5.313mm,-13.45mm) on Top Overlay And Track (5.629mm,-13.858mm)(8.229mm,-13.858mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.082mm < 0.254mm) Between Text "C3" (4.94mm,15.078mm) on Top Overlay And Track (4.557mm,14.889mm)(5.857mm,14.889mm) on Top Overlay Silk Text to Silk Clearance [0.082mm]
+   Violation between Silk To Silk Clearance Constraint: (0.082mm < 0.254mm) Between Text "C4" (-0.521mm,15.078mm) on Top Overlay And Track (-0.904mm,14.889mm)(0.396mm,14.889mm) on Top Overlay Silk Text to Silk Clearance [0.082mm]
+   Violation between Silk To Silk Clearance Constraint: (0.235mm < 0.254mm) Between Text "C5" (-13.476mm,-0.289mm) on Top Overlay And Track (-12.603mm,-0.777mm)(-12.603mm,0.523mm) on Top Overlay Silk Text to Silk Clearance [0.235mm]
+   Violation between Silk To Silk Clearance Constraint: (0.213mm < 0.254mm) Between Text "C6" (11.186mm,3.879mm) on Top Overlay And Track (12.035mm,3.414mm)(12.035mm,4.714mm) on Top Overlay Silk Text to Silk Clearance [0.213mm]
+   Violation between Silk To Silk Clearance Constraint: (0.165mm < 0.254mm) Between Text "C7" (8.496mm,-10.957mm) on Top Overlay And Track (7.31mm,-10.78mm)(8.229mm,-10.78mm) on Top Overlay Silk Text to Silk Clearance [0.165mm]
+   Violation between Silk To Silk Clearance Constraint: (0.165mm < 0.254mm) Between Text "C7" (8.496mm,-10.957mm) on Top Overlay And Track (8.229mm,-12.08mm)(8.229mm,-10.78mm) on Top Overlay Silk Text to Silk Clearance [0.165mm]
+   Violation between Silk To Silk Clearance Constraint: (0.25mm < 0.254mm) Between Text "C8" (9.003mm,18.014mm) on Top Overlay And Track (9.764mm,16.876mm)(9.764mm,17.795mm) on Top Overlay Silk Text to Silk Clearance [0.25mm]
+   Violation between Silk To Silk Clearance Constraint: (0.236mm < 0.254mm) Between Text "C9" (-13.491mm,-4.099mm) on Top Overlay And Track (-12.618mm,-4.587mm)(-12.618mm,-3.287mm) on Top Overlay Silk Text to Silk Clearance [0.236mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "D2" (4.82mm,19.777mm) on Top Overlay And Track (4.43mm,20.163mm)(5.73mm,20.163mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.139mm < 0.254mm) Between Text "D2" (4.82mm,19.777mm) on Top Overlay And Track (4.48mm,19.536mm)(5.68mm,19.536mm) on Top Overlay Silk Text to Silk Clearance [0.139mm]
+   Violation between Silk To Silk Clearance Constraint: (0.004mm < 0.254mm) Between Text "E1" (-8.163mm,24.474mm) on Top Overlay And Track (-9.199mm,24.89mm)(-7.749mm,23.44mm) on Top Overlay Silk Text to Silk Clearance [0.004mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "E2" (-6.738mm,11.338mm) on Top Overlay And Track (-7.802mm,10.797mm)(-6.352mm,12.247mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.243mm < 0.254mm) Between Text "JP1" (18.454mm,23.716mm) on Top Overlay And Track (18.415mm,23.368mm)(23.495mm,23.368mm) on Top Overlay Silk Text to Silk Clearance [0.243mm]
+   Violation between Silk To Silk Clearance Constraint: (0.243mm < 0.254mm) Between Text "JP2" (-22.978mm,23.716mm) on Top Overlay And Track (-22.987mm,23.368mm)(-17.907mm,23.368mm) on Top Overlay Silk Text to Silk Clearance [0.243mm]
+   Violation between Silk To Silk Clearance Constraint: (0.2538mm (9.991mil) < 0.254mm (10mil)) Between Text "JP2" (-22.978mm,23.716mm) on Top Overlay And Track (-22.987mm,-27.432mm)(-22.987mm,23.368mm) on Top Overlay Silk Text to Silk Clearance [0.254mm]
+   Violation between Silk To Silk Clearance Constraint: (0.243mm < 0.254mm) Between Text "JP3" (-12.312mm,-23.146mm) on Top Overlay And Track (-12.319mm,-23.495mm)(-4.699mm,-23.495mm) on Top Overlay Silk Text to Silk Clearance [0.243mm]
+   Violation between Silk To Silk Clearance Constraint: (0.243mm < 0.254mm) Between Text "JP3" (-12.312mm,-23.146mm) on Top Overlay And Track (-12.319mm,-23.495mm)(-7.451mm,-23.495mm) on Top Overlay Silk Text to Silk Clearance [0.243mm]
+   Violation between Silk To Silk Clearance Constraint: (0.2536mm (9.9852mil) < 0.254mm (10mil)) Between Text "JP3" (-12.312mm,-23.146mm) on Top Overlay And Track (-12.319mm,-28.575mm)(-12.319mm,-23.495mm) on Top Overlay Silk Text to Silk Clearance [0.254mm]
+   Violation between Silk To Silk Clearance Constraint: (0.244mm < 0.254mm) Between Text "JP7" (-0.882mm,-23.273mm) on Top Overlay And Track (-0.889mm,-23.622mm)(6.731mm,-23.622mm) on Top Overlay Silk Text to Silk Clearance [0.244mm]
+   Violation between Silk To Silk Clearance Constraint: (0.25397mm (9.99874mil) < 0.254mm (10mil)) Between Text "JP7" (-0.882mm,-23.273mm) on Top Overlay And Track (-0.889mm,-28.702mm)(-0.889mm,-23.622mm) on Top Overlay Silk Text to Silk Clearance [0.254mm]
+   Violation between Silk To Silk Clearance Constraint: (0.122mm < 0.254mm) Between Text "L1" (-14.798mm,-0.289mm) on Top Overlay And Track (-15.215mm,-0.513mm)(-13.995mm,-0.513mm) on Top Overlay Silk Text to Silk Clearance [0.122mm]
+   Violation between Silk To Silk Clearance Constraint: (0.027mm < 0.254mm) Between Text "LED_CHOOSE" (1.651mm,-23.36mm) on Top Overlay And Track (-0.889mm,-23.622mm)(6.731mm,-23.622mm) on Top Overlay Silk Text to Silk Clearance [0.027mm]
+   Violation between Silk To Silk Clearance Constraint: (0.153mm < 0.254mm) Between Text "LED1" (14.225mm,-25.689mm) on Top Overlay And Track (13.97mm,-26.127mm)(13.97mm,-24.927mm) on Top Overlay Silk Text to Silk Clearance [0.153mm]
+   Violation between Silk To Silk Clearance Constraint: (0.124mm < 0.254mm) Between Text "LED2" (14.195mm,-27.34mm) on Top Overlay And Track (13.97mm,-27.778mm)(13.97mm,-26.578mm) on Top Overlay Silk Text to Silk Clearance [0.124mm]
+   Violation between Silk To Silk Clearance Constraint: (0.122mm < 0.254mm) Between Text "LED3" (14.194mm,-28.861mm) on Top Overlay And Track (13.97mm,-29.302mm)(13.97mm,-28.102mm) on Top Overlay Silk Text to Silk Clearance [0.122mm]
+   Violation between Silk To Silk Clearance Constraint: (0.039mm < 0.254mm) Between Text "P10.0" (14.478mm,21.606mm) on Bottom Overlay And Track (10.922mm,-27.432mm)(10.922mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.039mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "P10.0" (14.478mm,21.606mm) on Bottom Overlay And Track (14.668mm,-27.432mm)(14.668mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "P10.1" (-14.351mm,21.479mm) on Bottom Overlay And Track (-14.161mm,-27.432mm)(-14.161mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (0.224mm < 0.254mm) Between Text "P10.1" (-14.351mm,21.479mm) on Bottom Overlay And Track (-17.907mm,-27.432mm)(-17.907mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.224mm]
+   Violation between Silk To Silk Clearance Constraint: (0.127mm < 0.254mm) Between Text "P10.2" (-10.668mm,21.479mm) on Bottom Overlay And Track (-10.414mm,-27.432mm)(-10.414mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.127mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "P10.2" (-10.668mm,21.479mm) on Bottom Overlay And Track (-14.161mm,-27.432mm)(-14.161mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "P10.3" (-14.351mm,19.067mm) on Bottom Overlay And Track (-14.161mm,-27.432mm)(-14.161mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (0.036mm < 0.254mm) Between Text "P10.3" (-14.351mm,19.067mm) on Bottom Overlay And Track (-17.907mm,-27.432mm)(-17.907mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.036mm]
+   Violation between Silk To Silk Clearance Constraint: (0.127mm < 0.254mm) Between Text "P10.4" (-10.668mm,-1.381mm) on Bottom Overlay And Track (-10.414mm,-27.432mm)(-10.414mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.127mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "P10.4" (-10.668mm,-1.381mm) on Bottom Overlay And Track (-14.161mm,-27.432mm)(-14.161mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "P10.5" (-14.351mm,-3.794mm) on Bottom Overlay And Track (-14.161mm,-27.432mm)(-14.161mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (0.029mm < 0.254mm) Between Text "P10.5" (-14.351mm,-3.794mm) on Bottom Overlay And Track (-17.907mm,-27.432mm)(-17.907mm,23.368mm) on Bottom Overlay Silk Text to Silk Clearance [0.029mm]
+   Violation between Silk To Silk Clearance Constraint: (0.203mm < 0.254mm) Between Text "R1" (8.533mm,-12.862mm) on Top Overlay And Track (5.629mm,-12.558mm)(8.229mm,-12.558mm) on Top Overlay Silk Text to Silk Clearance [0.203mm]
+   Violation between Silk To Silk Clearance Constraint: (0.203mm < 0.254mm) Between Text "R1" (8.533mm,-12.862mm) on Top Overlay And Track (8.229mm,-13.858mm)(8.229mm,-12.558mm) on Top Overlay Silk Text to Silk Clearance [0.203mm]
+   Violation between Silk To Silk Clearance Constraint: (0.132mm < 0.254mm) Between Text "R2" (9.012mm,21.316mm) on Top Overlay And Track (9.764mm,20.051mm)(9.764mm,22.651mm) on Top Overlay Silk Text to Silk Clearance [0.132mm]
+   Violation between Silk To Silk Clearance Constraint: (0.211mm < 0.254mm) Between Text "R3" (4.819mm,23.082mm) on Top Overlay And Track (4.43mm,22.763mm)(5.73mm,22.763mm) on Top Overlay Silk Text to Silk Clearance [0.211mm]
+   Violation between Silk To Silk Clearance Constraint: (0.035mm < 0.254mm) Between Text "R4" (7.614mm,-25.689mm) on Top Overlay And Track (7.582mm,-25.8mm)(10.376mm,-25.8mm) on Top Overlay Silk Text to Silk Clearance [0.035mm]
+   Violation between Silk To Silk Clearance Constraint: (0.039mm < 0.254mm) Between Text "R4" (7.614mm,-25.689mm) on Top Overlay And Track (7.582mm,-29.356mm)(7.582mm,-25.8mm) on Top Overlay Silk Text to Silk Clearance [0.039mm]
+   Violation between Silk To Silk Clearance Constraint: (0.169mm < 0.254mm) Between Text "X1" (-0.361mm,-10.703mm) on Top Overlay And Track (-0.381mm,-10.922mm)(4.445mm,-10.922mm) on Top Overlay Silk Text to Silk Clearance [0.169mm]
+   Violation between Silk To Silk Clearance Constraint: (0.17mm < 0.254mm) Between Text "X1" (-0.361mm,-10.703mm) on Top Overlay And Track (-0.381mm,-12.7mm)(-0.381mm,-10.922mm) on Top Overlay Silk Text to Silk Clearance [0.17mm]
+   Violation between Silk To Silk Clearance Constraint: (0.017mm < 0.254mm) Between Text "X2" (2.277mm,14.443mm) on Top Overlay And Track (0.889mm,14.859mm)(4.191mm,14.859mm) on Top Overlay Silk Text to Silk Clearance [0.017mm]
+Rule Violations :54
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.026mm < 0.508mm) Between Board Edge And Pad JP5-0(-15.011mm,33.915mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.026mm < 0.508mm) Between Board Edge And Pad JP5-0(-8.611mm,33.915mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.026mm < 0.508mm) Between Board Edge And Pad JP6-0(-1.136mm,33.915mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.026mm < 0.508mm) Between Board Edge And Pad JP6-0(9.264mm,33.915mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.251mm < 0.508mm) Between Board Edge And Text "*" (-24.203mm,34.157mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.344mm < 0.508mm) Between Board Edge And Text "JP5" (-17.012mm,35.274mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.372mm < 0.508mm) Between Board Edge And Text "JP6" (-3.216mm,35.244mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.508mm) Between Board Edge And Track (-0.254mm,35.687mm)(8.382mm,35.687mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.508mm) Between Board Edge And Track (10.16mm,27.686mm)(10.16mm,35.687mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.508mm) Between Board Edge And Track (-14.097mm,35.687mm)(-9.525mm,35.687mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.508mm) Between Board Edge And Track (-15.907mm,27.686mm)(-15.907mm,35.687mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.508mm) Between Board Edge And Track (-2.032mm,27.686mm)(-2.032mm,35.687mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.154mm < 0.508mm) Between Board Edge And Track (-7.715mm,27.686mm)(-7.715mm,35.687mm) on Top Overlay 
+Rule Violations :13
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Waived Violations : 0
+Time Elapsed        : 00:00:03

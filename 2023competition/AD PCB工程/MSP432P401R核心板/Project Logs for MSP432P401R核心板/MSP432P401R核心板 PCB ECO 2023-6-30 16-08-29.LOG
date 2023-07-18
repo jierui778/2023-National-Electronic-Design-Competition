@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=PJ.2 Pin=X2-2
+Change Component Footprint: Designator=X2 Old Footprint=OSC 5032-2P New Footprint=OSC 1612-4P
+Change Component Comment : Designator=X2 Old Comment=48MHz New Comment=48M
+Change component parameters: Designator = "X2" ("X2"); Footprint = "OSC 5032-2P"; UniqueID = "\CDSCHQNU" ("\CDSCHQNU")
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "4脚无源晶振"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "联系卖家，免费查找封装"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=X2-2
+Added Pin To Net: NetName=PJ.2 Pin=X2-3
+Added Pin To Net: NetName=GND Pin=X2-4
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component * M3
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component * M3
+Added Member To Class: ClassName=MSP432P401R核心板 Member=Component * M3

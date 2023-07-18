@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=P8.4 Pin=JP7-1
+Removed Pin From Net: NetName=LED1 Pin=JP7-2
+Removed Pin From Net: NetName=P8.5 Pin=JP7-3
+Removed Pin From Net: NetName=LED2 Pin=JP7-4
+Removed Pin From Net: NetName=P8.6 Pin=JP7-5
+Removed Pin From Net: NetName=LED3 Pin=JP7-6
+Added Pin To Net: NetName=LED3 Pin=JP7-1
+Added Pin To Net: NetName=P8.6 Pin=JP7-2
+Added Pin To Net: NetName=LED2 Pin=JP7-3
+Added Pin To Net: NetName=P8.5 Pin=JP7-4
+Added Pin To Net: NetName=LED1 Pin=JP7-5
+Added Pin To Net: NetName=P8.4 Pin=JP7-6
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
+Added Member To Class: ClassName=MSP432P401RºËÐÄ°å Member=Component * M3
