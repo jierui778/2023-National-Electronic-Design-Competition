@@ -1,0 +1,1 @@
+--apcs=interwork -I. -I../CORE -I../SYSTEM/delay -I../SYSTEM/sys -I../SYSTEM/usart -I../FWLIB/inc -I../FWLIB/src -I../HARDWARE -I../SYSTEM -IRTE/_F --cpu Cortex-M3 --li --pd "__MICROLIB SETA 1" -g -o .\build\F\__\CORE\startup_stm32f10x_md.o --depend .\build\F\__\CORE\startup_stm32f10x_md.d .\..\CORE\startup_stm32f10x_md.s

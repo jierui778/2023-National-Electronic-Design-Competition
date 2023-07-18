@@ -1,0 +1,38 @@
+--cpu Cortex-M3 --library_type=microlib --scatter "c:/Users/JIERUI/Desktop/2023电赛/competition/2023competition/项目源码/f for stm32/USER/build/F/F.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\build\F\F.map
+.\build\F\__\CORE\core_cm3.o
+.\build\F\__\CORE\startup_stm32f10x_md.o
+.\build\F\__\CORE\system_stm32f10x.o
+.\build\F\__\FWLIB\src\misc.o
+.\build\F\__\FWLIB\src\stm32f10x_adc.o
+.\build\F\__\FWLIB\src\stm32f10x_bkp.o
+.\build\F\__\FWLIB\src\stm32f10x_can.o
+.\build\F\__\FWLIB\src\stm32f10x_cec.o
+.\build\F\__\FWLIB\src\stm32f10x_crc.o
+.\build\F\__\FWLIB\src\stm32f10x_dac.o
+.\build\F\__\FWLIB\src\stm32f10x_dbgmcu.o
+.\build\F\__\FWLIB\src\stm32f10x_dma.o
+.\build\F\__\FWLIB\src\stm32f10x_exti.o
+.\build\F\__\FWLIB\src\stm32f10x_flash.o
+.\build\F\__\FWLIB\src\stm32f10x_fsmc.o
+.\build\F\__\FWLIB\src\stm32f10x_gpio.o
+.\build\F\__\FWLIB\src\stm32f10x_i2c.o
+.\build\F\__\FWLIB\src\stm32f10x_iwdg.o
+.\build\F\__\FWLIB\src\stm32f10x_pwr.o
+.\build\F\__\FWLIB\src\stm32f10x_rcc.o
+.\build\F\__\FWLIB\src\stm32f10x_rtc.o
+.\build\F\__\FWLIB\src\stm32f10x_sdio.o
+.\build\F\__\FWLIB\src\stm32f10x_spi.o
+.\build\F\__\FWLIB\src\stm32f10x_tim.o
+.\build\F\__\FWLIB\src\stm32f10x_usart.o
+.\build\F\__\FWLIB\src\stm32f10x_wwdg.o
+.\build\F\__\HARDWARE\MPU6050.o
+.\build\F\__\HARDWARE\OLED.o
+.\build\F\__\HARDWARE\encoder.o
+.\build\F\__\HARDWARE\pid.o
+.\build\F\__\HARDWARE\timer.o
+.\build\F\__\SYSTEM\delay\delay.o
+.\build\F\__\SYSTEM\sys\sys.o
+.\build\F\__\SYSTEM\usart\usart.o
+.\build\F\main.o
+.\build\F\stm32f10x_it.o -o .\build\F\F.axf
