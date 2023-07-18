@@ -1,11 +1,4 @@
-/*
- * @Author: Jierui 7584181012qq.com
- * @Date: 2023-07-18 10:19:54
- * @LastEditors: Jierui 7584181012qq.com
- * @LastEditTime: 2023-07-18 14:06:04
- * @FilePath: \2023电赛\competition\2023competition\项目源码\f for stm32\HARDWARE\MPU6050.h
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
+
 #ifndef __MPU6050_H
 #define __MPU6050_H
 
