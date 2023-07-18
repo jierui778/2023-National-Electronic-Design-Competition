@@ -3,15 +3,15 @@
         {
             "name": "F",
             "includePath": [
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\USER",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\CORE",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\delay",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\sys",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\usart",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\FWLIB\\inc",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\FWLIB\\src",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\HARDWARE",
-                "c:\\Users\\JIERUI\\Desktop\\2023competition\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM"
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\USER",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\CORE",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\delay",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\sys",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\usart",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\FWLIB\\inc",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\FWLIB\\src",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\HARDWARE",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM"
             ],
             "defines": [
                 "STM32F10X_MD",

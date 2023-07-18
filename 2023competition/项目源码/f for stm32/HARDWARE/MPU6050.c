@@ -1,11 +1,12 @@
-//ËµÃ÷:ÕâÀïÊ¹ÓÃµÄÊÇPB10¡¢11µÄÒý½Å
-//ÓÉÓÚÊÇÈí¼þÄ£Äâ£¬È¡ÆäËûÒý½ÅÒ²¿ÉÒÔ
-//MPU6050_GetData£¨£©Êä³öµÄÊý¾ÝÊÇÎ´¾­¹ý»»ËãµÄ
-//ÐÞ¸ÄMPU6050_GYRO_CONFIGºÍ  MPU6050_ACCEL_CONFIG  ÐÞ¸ÄÁ¿³Ì
-//¶ÔÓ¦µÄÖµÎª£ºÏÔÊ¾Öµ*Á¿³Ì/65536 
+//Ëµï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½PB10ï¿½ï¿½11ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½â£¬È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½
+//MPU6050_GetDataï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//ï¿½Þ¸ï¿½MPU6050_GYRO_CONFIGï¿½ï¿½  MPU6050_ACCEL_CONFIG  ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½
+//ï¿½ï¿½Ó¦ï¿½ï¿½ÖµÎªï¿½ï¿½ï¿½ï¿½Ê¾Öµ*ï¿½ï¿½ï¿½ï¿½/65536 
 
 
 #include "stm32f10x.h"                  // Device header
+#include "MPU6050.h"
 #include "delay.h"
 
 #define MPU6050_ADDRESS		0xD0
@@ -36,19 +37,19 @@
 
 
 //IIC
-void MyI2C_W_SCL(uint8_t BitValue)
+void MPU6050_I2C_W_SCL(uint8_t BitValue)
 {
 	GPIO_WriteBit(GPIOB, GPIO_Pin_10, (BitAction)BitValue);
 	Delay_us(10);
 }
 
-void MyI2C_W_SDA(uint8_t BitValue)
+void MPU6050_I2C_W_SDA(uint8_t BitValue)
 {
 	GPIO_WriteBit(GPIOB, GPIO_Pin_11, (BitAction)BitValue);
 	Delay_us(10);
 }
 
-uint8_t MyI2C_R_SDA(void)
+uint8_t MPU6050_I2C_R_SDA(void)
 {
 	uint8_t BitValue;
 	BitValue = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_11);
@@ -56,7 +57,7 @@ uint8_t MyI2C_R_SDA(void)
 	return BitValue;
 }
 
-void MyI2C_Init(void)
+void MPU6050_I2C_Init(void)
 {
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 	
@@ -69,59 +70,59 @@ void MyI2C_Init(void)
 	GPIO_SetBits(GPIOB, GPIO_Pin_10 | GPIO_Pin_11);
 }
 
-void MyI2C_Start(void)
+void MPU6050_I2C_Start(void)
 {
-	MyI2C_W_SDA(1);
-	MyI2C_W_SCL(1);
-	MyI2C_W_SDA(0);
-	MyI2C_W_SCL(0);
+	MPU6050_I2C_W_SDA(1);
+	MPU6050_I2C_W_SCL(1);
+	MPU6050_I2C_W_SDA(0);
+	MPU6050_I2C_W_SCL(0);
 }
 
-void MyI2C_Stop(void)
+void MPU6050_I2C_Stop(void)
 {
-	MyI2C_W_SDA(0);
-	MyI2C_W_SCL(1);
-	MyI2C_W_SDA(1);
+	MPU6050_I2C_W_SDA(0);
+	MPU6050_I2C_W_SCL(1);
+	MPU6050_I2C_W_SDA(1);
 }
 
-void MyI2C_SendByte(uint8_t Byte)
+void MPU6050_I2C_SendByte(uint8_t Byte)
 {
 	uint8_t i;
 	for (i = 0; i < 8; i ++)
 	{
-		MyI2C_W_SDA(Byte & (0x80 >> i));
-		MyI2C_W_SCL(1);
-		MyI2C_W_SCL(0);
+		MPU6050_I2C_W_SDA(Byte & (0x80 >> i));
+		MPU6050_I2C_W_SCL(1);
+		MPU6050_I2C_W_SCL(0);
 	}
 }
 
-uint8_t MyI2C_ReceiveByte(void)
+uint8_t MPU6050_I2C_ReceiveByte(void)
 {
 	uint8_t i, Byte = 0x00;
-	MyI2C_W_SDA(1);
+	MPU6050_I2C_W_SDA(1);
 	for (i = 0; i < 8; i ++)
 	{
-		MyI2C_W_SCL(1);
-		if (MyI2C_R_SDA() == 1){Byte |= (0x80 >> i);}
-		MyI2C_W_SCL(0);
+		MPU6050_I2C_W_SCL(1);
+		if (MPU6050_I2C_R_SDA() == 1){Byte |= (0x80 >> i);}
+		MPU6050_I2C_W_SCL(0);
 	}
 	return Byte;
 }
 
-void MyI2C_SendAck(uint8_t AckBit)
+void MPU6050_I2C_SendAck(uint8_t AckBit)
 {
-	MyI2C_W_SDA(AckBit);
-	MyI2C_W_SCL(1);
-	MyI2C_W_SCL(0);
+	MPU6050_I2C_W_SDA(AckBit);
+	MPU6050_I2C_W_SCL(1);
+	MPU6050_I2C_W_SCL(0);
 }
 
-uint8_t MyI2C_ReceiveAck(void)
+uint8_t MPU6050_I2C_ReceiveAck(void)
 {
 	uint8_t AckBit;
-	MyI2C_W_SDA(1);
-	MyI2C_W_SCL(1);
-	AckBit = MyI2C_R_SDA();
-	MyI2C_W_SCL(0);
+	MPU6050_I2C_W_SDA(1);
+	MPU6050_I2C_W_SCL(1);
+	AckBit = MPU6050_I2C_R_SDA();
+	MPU6050_I2C_W_SCL(0);
 	return AckBit;
 }
 
@@ -132,39 +133,39 @@ uint8_t MyI2C_ReceiveAck(void)
 //MPU6050
 void MPU6050_WriteReg(uint8_t RegAddress, uint8_t Data)
 {
-	MyI2C_Start();
-	MyI2C_SendByte(MPU6050_ADDRESS);
-	MyI2C_ReceiveAck();
-	MyI2C_SendByte(RegAddress);
-	MyI2C_ReceiveAck();
-	MyI2C_SendByte(Data);
-	MyI2C_ReceiveAck();
-	MyI2C_Stop();
+	MPU6050_I2C_Start();
+	MPU6050_I2C_SendByte(MPU6050_ADDRESS);
+	MPU6050_I2C_ReceiveAck();
+	MPU6050_I2C_SendByte(RegAddress);
+	MPU6050_I2C_ReceiveAck();
+	MPU6050_I2C_SendByte(Data);
+	MPU6050_I2C_ReceiveAck();
+	MPU6050_I2C_Stop();
 }
 
 uint8_t MPU6050_ReadReg(uint8_t RegAddress)
 {
 	uint8_t Data;
 	
-	MyI2C_Start();
-	MyI2C_SendByte(MPU6050_ADDRESS);
-	MyI2C_ReceiveAck();
-	MyI2C_SendByte(RegAddress);
-	MyI2C_ReceiveAck();
+	MPU6050_I2C_Start();
+	MPU6050_I2C_SendByte(MPU6050_ADDRESS);
+	MPU6050_I2C_ReceiveAck();
+	MPU6050_I2C_SendByte(RegAddress);
+	MPU6050_I2C_ReceiveAck();
 	
-	MyI2C_Start();
-	MyI2C_SendByte(MPU6050_ADDRESS | 0x01);
-	MyI2C_ReceiveAck();
-	Data = MyI2C_ReceiveByte();
-	MyI2C_SendAck(1);
-	MyI2C_Stop();
+	MPU6050_I2C_Start();
+	MPU6050_I2C_SendByte(MPU6050_ADDRESS | 0x01);
+	MPU6050_I2C_ReceiveAck();
+	Data = MPU6050_I2C_ReceiveByte();
+	MPU6050_I2C_SendAck(1);
+	MPU6050_I2C_Stop();
 	
 	return Data;
 }
 
 void MPU6050_Init(void)
 {
-	MyI2C_Init();
+	MPU6050_I2C_Init();
 	MPU6050_WriteReg(MPU6050_PWR_MGMT_1, 0x01);
 	MPU6050_WriteReg(MPU6050_PWR_MGMT_2, 0x00);
 	MPU6050_WriteReg(MPU6050_SMPLRT_DIV, 0x09);
