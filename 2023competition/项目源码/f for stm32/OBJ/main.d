@@ -34,5 +34,11 @@
 ..\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\encoder.h
 ..\obj\main.o: ..\HARDWARE\oled.h
+<<<<<<< HEAD
 ..\obj\main.o: ..\SYSTEM\delay\delay.h
 ..\obj\main.o: ..\HARDWARE\MPU6050.h
+=======
+..\obj\main.o: ..\HARDWARE\MPU6050.h
+..\obj\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\main.o: ..\SYSTEM\delay\delay.h
+>>>>>>> Jierui
