@@ -1,5 +1,9 @@
-//说明:这里使用的是PB10、11的引脚
-//由于是软件模拟，取其他引脚也可以
+//˵��:����ʹ�õ���PB10��11������
+//����������ģ�⣬ȡ��������Ҳ����
+//MPU6050_GetData���������������δ���������
+//�޸�MPU6050_GYRO_CONFIG��  MPU6050_ACCEL_CONFIG  �޸�����
+//��Ӧ��ֵΪ����ʾֵ*����/65536 
+
 
 #include "stm32f10x.h"                  // Device header
 #include "MPU6050.h"
@@ -36,20 +40,20 @@
 void MPU6050_I2C_W_SCL(uint8_t BitValue)
 {
 	GPIO_WriteBit(GPIOB, GPIO_Pin_10, (BitAction)BitValue);
-	Delay_us(10);
+	delay_us(10);
 }
 
 void MPU6050_I2C_W_SDA(uint8_t BitValue)
 {
 	GPIO_WriteBit(GPIOB, GPIO_Pin_11, (BitAction)BitValue);
-	Delay_us(10);
+	delay_us(10);
 }
 
 uint8_t MPU6050_I2C_R_SDA(void)
 {
 	uint8_t BitValue;
 	BitValue = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_11);
-	Delay_us(10);
+	delay_us(10);
 	return BitValue;
 }
 

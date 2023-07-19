@@ -161,12 +161,12 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 //	
 //	GPIO_InitTypeDef GPIO_InitStructure;
 //	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-//	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;
+//	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;                     //TX引脚
 //	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 //	GPIO_Init(GPIOB, &GPIO_InitStructure);
 //	
 //	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-//	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
+//	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;                      //RX引脚
 //	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 //	GPIO_Init(GPIOB, &GPIO_InitStructure);
 //	
@@ -241,7 +241,7 @@ void Serial_SendNumber(uint32_t Number, uint8_t Length)
 		Serial_SendByte(Number / Serial_Pow(10, Length - i - 1) % 10 + '0');
 	}
 }
-
+//Printf 重定义重复
 //int fputc(int ch, FILE *f)
 //{
 //	Serial_SendByte(ch);

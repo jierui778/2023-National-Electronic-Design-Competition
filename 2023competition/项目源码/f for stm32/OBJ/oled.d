@@ -1,7 +1,7 @@
 ..\obj\oled.o: ..\HARDWARE\OLED.c
 ..\obj\oled.o: ..\USER\stm32f10x.h
 ..\obj\oled.o: ..\CORE\core_cm3.h
-..\obj\oled.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\oled.o: ..\USER\system_stm32f10x.h
 ..\obj\oled.o: ..\USER\stm32f10x_conf.h
 ..\obj\oled.o: ..\FWLIB\inc\stm32f10x_adc.h
@@ -31,4 +31,4 @@
 ..\obj\oled.o: ..\HARDWARE\OLED_Font.h
 ..\obj\oled.o: ..\HARDWARE\OLED.h
 ..\obj\oled.o: ..\SYSTEM\sys\sys.h
-..\obj\oled.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
