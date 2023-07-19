@@ -16,7 +16,7 @@ int main(void)
     // Vofa_Serial_init(9600);
     delay_init();
     TIM1_PWM_Init(4500, 0); // 10Khz的PWM频率
-    TIM_SetCompare1(TIM1, 00); // 0%占空比
+    TIM_SetCompare1(TIM1, 1000); // 0%占空比
     TIM_SetCompare4(TIM1, 4000);
     // int value;
     //    int16_t AX, AY, AZ, GX, GY, GZ;
