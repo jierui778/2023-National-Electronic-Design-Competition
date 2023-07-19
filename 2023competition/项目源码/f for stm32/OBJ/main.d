@@ -35,3 +35,4 @@
 ..\obj\main.o: ..\HARDWARE\encoder.h
 ..\obj\main.o: ..\HARDWARE\oled.h
 ..\obj\main.o: ..\SYSTEM\delay\delay.h
+..\obj\main.o: ..\HARDWARE\MPU6050.h
