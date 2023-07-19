@@ -1,11 +1,3 @@
-/*
- * @Author: Jierui 7584181012qq.com
- * @Date: 2023-07-16 15:13:16
- * @LastEditors: Jierui 758418101@qq.com
- * @LastEditTime: 2023-07-18 18:40:25
- * @FilePath: \2023电赛\competition\2023competition\项目源码\f for stm32\USER\main.c
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 #include "stm32f10x.h"
 #include "sys.h"
 #include "timer.h"
@@ -19,9 +11,13 @@
 int main(void)
 {
 
-    // Encoder_Init();
+    Encoder_Init();
     uart_init(9600);
+    // Vofa_Serial_init(9600);
     delay_init();
+    TIM1_PWM_Init(4500, 0); // 10Khz的PWM频率
+    TIM_SetCompare1(TIM1, 00); // 0%占空比
+    TIM_SetCompare4(TIM1, 4000);
     // int value;
     //    int16_t AX, AY, AZ, GX, GY, GZ;
     //    uint8_t ID;
@@ -31,11 +27,15 @@ int main(void)
     //      MPU6050_Init();
 
     //    ID = MPU6050_GetID();
-    float t;
+    // float t;
+    int temp;
     while (1) {
-        t += 0.1;
-        printf("demo:%f,%f,%f,%f\n", sin(t), sin(2*t),sin(3*t),sin(4*t));
-        delay_ms(10);
+        // t += 0.1;
+        // printf("demo:%f,%f,%f,%f\n", sin(t), sin(2 * t), sin(3 * t), sin(4 * t));
+        // FireWater_Send('demo', 1, 1, 1, 1);
+        temp=Read_Encoder(4);
+        printf("%d\n",temp);
+        delay_ms(100);
 
         //               MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ); // ����6�ᴫ������ֵ
         //               OLED_ShowSignedNum(1, 0, AX, 5, 16, 1);
