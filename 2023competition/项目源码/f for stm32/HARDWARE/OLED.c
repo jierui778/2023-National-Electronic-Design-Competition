@@ -355,6 +355,14 @@ int OLED_Pow(uint8_t m, uint8_t n)
 	return result;
 }
 //与中景园算法有出入
+/**
+  * @brief  OLED显示数字（十进制，正数）
+  * @param  
+  * @param  
+  * @param  Number 要显示的数字，范围：0~4294967295
+  * @param  Length 要显示数字的长度，范围：1~10
+  * @retval 无
+  */
 void OLED_ShowNum(uint8_t x, uint8_t y, uint32_t Number, uint8_t Length, uint8_t size1, uint8_t mode)
 {
 	uint8_t t, temp;
@@ -376,7 +384,39 @@ void OLED_ShowNum(uint8_t x, uint8_t y, uint32_t Number, uint8_t Length, uint8_t
 	}
 }
 
-
+void OLED_ShowSignedNum(uint8_t x, uint8_t y, int32_t Number, uint8_t Length,uint8_t size1,uint8_t mode)
+{
+//	uint32_t Number1;
+//	if (Number >= 0)
+//	{
+//		OLED_ShowChar(x, y+size1/4,'+',8,mode);
+//		Number1 = Number;
+//	}
+//	else
+//	{
+//		OLED_ShowChar(x, y+size1/4,'-',8,mode);
+//		Number1 = -Number;
+//	}
+//    
+//    OLED_ShowNum(x+8, y,Number1,Length,size1,mode);
+    	uint8_t i;
+	uint32_t Number1;
+	if (Number >= 0)
+	{
+		OLED_ShowChar(x, y, '+',size1,mode);
+		Number1 = Number;
+	}
+	else
+	{
+		OLED_ShowChar(x, y, '-',size1,mode);
+		Number1 = -Number;
+	}
+	for (i = 0; i < Length; i++)							
+	{
+		OLED_ShowChar(x+8*i+8, y, Number1 / OLED_Pow(10, Length - i - 1) % 10 + '0',size1,mode);
+	}
+    
+}
 
 void OLED_ShowChinese(uint8_t x, uint8_t y, uint8_t num,uint8_t size1,uint8_t mode)
 {

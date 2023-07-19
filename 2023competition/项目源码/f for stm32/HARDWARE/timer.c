@@ -5,10 +5,16 @@ void TIM1_PWM_Init(u16 arr,u16 psc)
 {
     TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
 	TIM_OCInitTypeDef  TIM_OCInitStructure;
+	GPIO_InitTypeDef GPIO_InitStructure;
 
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM1,ENABLE);	//// 使能定时器1APB2时钟
-	
-  //初始化TIM1,设置ARR和RCC:
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_AFIO, ENABLE);  //使能GPIO外设和AFIO复用功能模块时钟
+
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_11; // PA8&PA11
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_Init(GPIOA, &GPIO_InitStructure);
+	// 初始化TIM1,设置ARR和RCC:
 	TIM_TimeBaseStructure.TIM_Period = arr; //设置下一个更新事件装入活动的自动重装寄存器周期值//设置自动重装载寄存器周期值 
 	TIM_TimeBaseStructure.TIM_Prescaler =psc; //设置用来作为TIMx时钟频率除数的预分频值
 	TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1; //设置时钟分割（0）
@@ -64,7 +70,7 @@ void Encoder_TIM3_Init(void)
 	//Reset counter
 	TIM_SetCounter(TIM3,0);
 	//===============================================
-//	TIM3->CNT = 0x7fff;
+	TIM3->CNT = 0x7fff;
 	//===============================================
 	TIM_Cmd(TIM3, ENABLE); 
 }
@@ -95,7 +101,22 @@ void Encoder_TIM4_Init(void)
 	//Reset counter
 	TIM_SetCounter(TIM4,0);
 	//===============================================
-//	TIM4->CNT = 0x7fff;
+	// TIM4->CNT = 0x7fff;
 	//===============================================
 	TIM_Cmd(TIM4, ENABLE);  
+}
+
+void TIM3_IRQHandler(void)   //TIM3中断服务函数
+{
+	if (TIM_GetITStatus(TIM3, TIM_IT_Update)== SET) //检查指定的TIM中断发生与否:TIM 中断源 
+	{
+		TIM_ClearITPendingBit(TIM3, TIM_IT_Update);  //清除TIMx的中断待处理位:TIM 中断源 
+	}
+}
+void TIM4_IRQHandler(void)   //TIM4中断服务函数
+{
+	if (TIM_GetITStatus(TIM4, TIM_IT_Update) == SET) //检查指定的TIM中断发生与否:TIM 中断源 
+	{
+		TIM_ClearITPendingBit(TIM4, TIM_IT_Update);  //清除TIMx的中断待处理位:TIM 中断源 
+	}
 }

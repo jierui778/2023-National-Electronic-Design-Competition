@@ -28,6 +28,7 @@ void OLED_ShowString(uint8_t x, uint8_t y, uint8_t *chr,uint8_t size1,uint8_t mo
 int OLED_Pow(uint8_t m, uint8_t n);//OLED次方计算
 
 void OLED_ShowNum(uint8_t x, uint8_t y, uint32_t Number, uint8_t Length, uint8_t size1, uint8_t mode);//OLED显示数字
+void OLED_ShowSignedNum(uint8_t x, uint8_t y, int32_t Number, uint8_t Length,uint8_t size1,uint8_t mode);
 void OLED_ShowChinese(uint8_t x, uint8_t y, uint8_t num,uint8_t size1,uint8_t mode);//OLED显示汉字
 void OLED_ScrollDisplay(uint8_t num, uint8_t space,uint8_t mode);//OLED滚动显示
 // void OLED_ShowSignedNum(uint8_t Line, uint8_t Column, int32_t Number, uint8_t Length);
