@@ -10,8 +10,11 @@
                 "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM\\usart",
                 "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\FWLIB\\inc",
                 "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\FWLIB\\src",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM",
                 "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\HARDWARE",
-                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\SYSTEM"
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\HARDWARE\\MPU6050",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\HARDWARE\\MPU6050\\IIC",
+                "c:\\Users\\JIERUI\\Desktop\\2023电赛\\competition\\2023competition\\项目源码\\f for stm32\\HARDWARE\\MPU6050\\DMP"
             ],
             "defines": [
                 "STM32F10X_MD",
