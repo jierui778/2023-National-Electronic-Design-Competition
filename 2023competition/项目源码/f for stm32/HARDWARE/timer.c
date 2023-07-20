@@ -1,6 +1,12 @@
 #include"timer.h"
 #include"sys.h"
 
+
+/*PWM输出初始化
+arr：自动重装载值
+psc：时钟预分频系数
+example：TIM1_PWM_Init(7199,0);//PWM频率为72000/(7199+1)=10Khz
+*/
 void TIM1_PWM_Init(u16 arr,u16 psc)  
 {
     TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
@@ -30,7 +36,7 @@ void TIM1_PWM_Init(u16 arr,u16 psc)
 	TIM_OCInitStructure.TIM_Pulse = 0;//设置待装入1捕获比较寄存器的脉冲值
 	
 	TIM_OC1Init(TIM1,&TIM_OCInitStructure);           ////根据TIM_OCInitStruct中指定的参数初始化外设TIMx  通道1
-	TIM_OC4Init(TIM1,&TIM_OCInitStructure);           //初始化TIM1_CH4  
+	TIM_OC4Init(TIM1,&TIM_OCInitStructure);           //初始化TIM1_CH1,CH4
 	TIM_OC1PreloadConfig(TIM1, TIM_OCPreload_Enable);  //使能
 	TIM_OC4PreloadConfig(TIM1, TIM_OCPreload_Enable);
 
