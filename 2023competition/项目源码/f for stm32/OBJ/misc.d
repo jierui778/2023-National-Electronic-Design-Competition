@@ -2,7 +2,7 @@
 ..\obj\misc.o: ..\FWLIB\inc\misc.h
 ..\obj\misc.o: ..\USER\stm32f10x.h
 ..\obj\misc.o: ..\CORE\core_cm3.h
-..\obj\misc.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\misc.o: ..\USER\system_stm32f10x.h
 ..\obj\misc.o: ..\USER\stm32f10x_conf.h
 ..\obj\misc.o: ..\FWLIB\inc\stm32f10x_adc.h
