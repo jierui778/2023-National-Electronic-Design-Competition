@@ -7,7 +7,7 @@
 #include "MPU6050.h"
 #include "math.h"
 #include "delay.h"
-
+#include "pid.h"
 int main(void)
 {
 
@@ -19,38 +19,47 @@ int main(void)
     // TIM_SetCompare1(TIM1, 1000); // 0%占空比
     // TIM_SetCompare4(TIM1, 4000);
     // int value;
-       int16_t AX, AY, AZ, GX, GY, GZ;
-       uint8_t ID;
-          OLED_Init(); // OLED初始化
-       //                 //    OLED_DisplayTurn(1); // 屏幕旋转
-       //                 //     OLED_Init();
+    //    int16_t AX, AY, AZ, GX, GY, GZ;
+    //    uint8_t ID;
+    //       OLED_Init(); // OLED初始化
+    //    //                 //    OLED_DisplayTurn(1); // 屏幕旋转
+    //    //                 //     OLED_Init();
        
-       MPU6050_Init();
+    //    MPU6050_Init();
        
-       // float t;
-       int temp;
+       float a=0;
+       float b=0;
+       float c=0;
        while (1) {
+           
+           a = PositionPIDToSpeed(b, SpeedDate);
+           c += a;
+
+           printf("%f,%f,%f\n", a, b, c);
+           b = c - 1000;
+           // c为速度，b为误差，a为pwm
+
            // t += 0.1;
            // printf("demo:%f,%f,%f,%f\n", sin(t), sin(2 * t), sin(3 * t), sin(4 * t));
            // FireWater_Send('demo', 1, 1, 1, 1);
            // temp=Read_Encoder(4);
            // printf("%d\n",temp);
-           // delay_ms(100);
+           delay_ms(100);
 
-             MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ); // 读取6轴原始数据
-             ID = MPU6050_GetID();
-             printf("AX:%d,AY:%d,AZ:%d,GX:%d,GY:%d,GZ:%d\n",AX,AY,AZ,GX,GY,GZ);
-             printf("ID:%d\n", ID);
-             delay_ms(1000);
+            //  MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ); // 读取6轴原始数据
+            //  ID = MPU6050_GetID();
+            //  printf("AX:%d,AY:%d,AZ:%d,GX:%d,GY:%d,GZ:%d\n",AX,AY,AZ,GX,GY,GZ);
+            //  printf("ID:%d\n", ID);
+            //  delay_ms(1000);
              
-                         OLED_ShowSignedNum(1, 0, AX, 5, 16, 1);
-                         OLED_ShowSignedNum(1, 24, AY, 5, 16, 1);
-                         OLED_ShowSignedNum(1, 48, AZ, 5, 16, 1);
+            //              OLED_ShowSignedNum(1, 0, AX, 5, 16, 1);
+            //              OLED_ShowSignedNum(1, 24, AY, 5, 16, 1);
+            //              OLED_ShowSignedNum(1, 48, AZ, 5, 16, 1);
            
-                         OLED_ShowSignedNum(64, 0, GX, 5, 16, 1);
-                         OLED_ShowSignedNum(64, 24, GY, 5, 16, 1);
-                         OLED_ShowSignedNum(64, 48, GZ, 5, 16, 1);
-                         OLED_Refresh();
+            //              OLED_ShowSignedNum(64, 0, GX, 5, 16, 1);
+            //              OLED_ShowSignedNum(64, 24, GY, 5, 16, 1);
+            //              OLED_ShowSignedNum(64, 48, GZ, 5, 16, 1);
+            //              OLED_Refresh();
 
            // OLED_ShowNum(uint8_t x, uint8_t y, uint32_t Number, uint8_t Length, uint8_t size1, uint8_t mode);
 

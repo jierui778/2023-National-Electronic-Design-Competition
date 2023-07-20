@@ -178,6 +178,9 @@
             "path": "main.c"
           },
           {
+            "path": "main.h"
+          },
+          {
             "path": "stm32f10x_it.c"
           }
         ],
