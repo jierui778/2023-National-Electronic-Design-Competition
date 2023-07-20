@@ -103,28 +103,40 @@
         "name": "HARDWARE",
         "files": [
           {
-            "path": "../HARDWARE/control.c"
-          },
-          {
-            "path": "../HARDWARE/control.h"
-          },
-          {
             "path": "../HARDWARE/encoder.c"
           },
           {
             "path": "../HARDWARE/encoder.h"
           },
           {
-            "path": "../HARDWARE/motor.c"
+            "path": "../HARDWARE/MPU6050/DMP/dmpKey.h"
           },
           {
-            "path": "../HARDWARE/motor.h"
+            "path": "../HARDWARE/MPU6050/DMP/dmpmap.h"
           },
           {
-            "path": "../HARDWARE/MPU6050.c"
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.c"
           },
           {
-            "path": "../HARDWARE/MPU6050.h"
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/IIC/IIC.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/IIC/IIC.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/MPU6050.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/mpu6050.h"
           },
           {
             "path": "../HARDWARE/OLED_Font.h"
@@ -142,10 +154,10 @@
             "path": "../HARDWARE/pid.h"
           },
           {
-            "path": "../HARDWARE/vofa.c"
+            "path": "../HARDWARE/timer.c"
           },
           {
-            "path": "../HARDWARE/vofa.h"
+            "path": "../HARDWARE/timer.h"
           }
         ],
         "folders": []
@@ -153,12 +165,6 @@
       {
         "name": "SYSTEM",
         "files": [
-          {
-            "path": "../HARDWARE/timer.c"
-          },
-          {
-            "path": "../HARDWARE/timer.h"
-          },
           {
             "path": "../SYSTEM/delay/delay.c"
           },
@@ -176,9 +182,6 @@
         "files": [
           {
             "path": "main.c"
-          },
-          {
-            "path": "main.h"
           },
           {
             "path": "stm32f10x_it.c"
@@ -202,9 +205,39 @@
         "cpuType": "Cortex-M3",
         "floatingPointHardware": "none",
         "useCustomScatterFile": false,
-        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "scatterFilePath": "",
         "storageLayout": {
           "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
             {
               "tag": "IRAM",
               "id": 1,
@@ -214,18 +247,68 @@
               },
               "isChecked": true,
               "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
             }
           ],
           "ROM": [
             {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
               "tag": "IROM",
               "id": 1,
               "mem": {
-                "startAddr": "0x08000000",
+                "startAddr": "0x8000000",
                 "size": "0x10000"
               },
               "isChecked": true,
               "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
             }
           ]
         },
@@ -266,8 +349,11 @@
           "../SYSTEM/usart",
           "../FWLIB/inc",
           "../FWLIB/src",
-          "../HARDWARE",
           "../SYSTEM",
+          "../HARDWARE",
+          "../HARDWARE/MPU6050",
+          "../HARDWARE/MPU6050/IIC",
+          "../HARDWARE/MPU6050/DMP",
           "RTE/_F"
         ],
         "libList": [],

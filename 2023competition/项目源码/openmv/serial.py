@@ -64,3 +64,15 @@ sensor.set_auto_whitebal(False) # 颜色跟踪必须关闭白平衡
 sensor.skip_frames(time = 2000)
 clock = time.clock()
 
+sensor.set_vflip(True)
+
+
+sensor_model = 0
+#打印内存分配情况
+print(utils.gc_heap_size())
+# print
+
+
+
+def draw_roi(img):
+    img.draw_rectangle(left.roi,color = roi)

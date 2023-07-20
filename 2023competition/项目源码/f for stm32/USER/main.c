@@ -19,7 +19,7 @@ int main(void)
     delay_init();
 	
 		//MPU6050初始化
-		IIC_Init();
+		MPU6050_IIC_Init();
 		MPU6050_initialize();
 		DMP_Init();
 		TIM2_Getsample_Int();
