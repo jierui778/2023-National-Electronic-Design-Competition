@@ -55,7 +55,7 @@
 import pyb,sensor,image,time
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
-sensor.set_framesize(sensor.QVGA)
+sensor.set_framesize(sensor.QVGA)//320*240
 
 sensor.set_auto_exposure(0)         # 设置自动曝光
 sensor.set_auto_gain(False) # 颜色跟踪必须关闭增益
