@@ -11,7 +11,7 @@ typedef struct
 }PID;
 /*外部结构体声明*/
 extern PID SpeedDate;//定义速度PID参数结构体，在这里设置速度PID参数
-extern PID TraceTurndate;//定义转向PID参数结构体，在这里设置转向PID参数
+extern PID TraceTurnDate;//定义转向PID参数结构体，在这里设置转向PID参数
 /**/
 extern int Position_PID(float deviation, PID pid);
 extern int Position_PID2(float deviation,PID pid);

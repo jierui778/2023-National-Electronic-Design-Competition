@@ -112,12 +112,12 @@
         <DllOption>
           <SimDllName>SARMCM3.DLL</SimDllName>
           <SimDllArguments> -REMAP</SimDllArguments>
-          <SimDlgDll>DARMSTM.DLL</SimDlgDll>
-          <SimDlgDllArguments>-pSTM32F103C8</SimDlgDllArguments>
+          <SimDlgDll>DCM.DLL</SimDlgDll>
+          <SimDlgDllArguments>-pCM3</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
           <TargetDllArguments></TargetDllArguments>
-          <TargetDlgDll>TARMSTM.DLL</TargetDlgDll>
-          <TargetDlgDllArguments>--pSTM32F103C8</TargetDlgDllArguments>
+          <TargetDlgDll>TCM.DLL</TargetDlgDll>
+          <TargetDlgDllArguments>-pCM3</TargetDlgDllArguments>
         </DllOption>
         <DebugOption>
           <OPTHX>
@@ -139,7 +139,7 @@
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3>"" ()</Flash3>
+          <Flash3></Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -654,6 +654,36 @@
               <FileName>OLED_Font.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\OLED_Font.h</FilePath>
+            </File>
+            <File>
+              <FileName>control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\control.c</FilePath>
+            </File>
+            <File>
+              <FileName>control.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\control.h</FilePath>
+            </File>
+            <File>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\motor.h</FilePath>
+            </File>
+            <File>
+              <FileName>vofa.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\vofa.c</FilePath>
+            </File>
+            <File>
+              <FileName>vofa.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\vofa.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -103,10 +103,22 @@
         "name": "HARDWARE",
         "files": [
           {
+            "path": "../HARDWARE/control.c"
+          },
+          {
+            "path": "../HARDWARE/control.h"
+          },
+          {
             "path": "../HARDWARE/encoder.c"
           },
           {
             "path": "../HARDWARE/encoder.h"
+          },
+          {
+            "path": "../HARDWARE/motor.c"
+          },
+          {
+            "path": "../HARDWARE/motor.h"
           },
           {
             "path": "../HARDWARE/MPU6050/DMP/dmpKey.h"
@@ -133,7 +145,7 @@
             "path": "../HARDWARE/MPU6050/IIC/IIC.h"
           },
           {
-            "path": "../HARDWARE/MPU6050/MPU6050.c"
+            "path": "../HARDWARE/MPU6050/mpu6050.c"
           },
           {
             "path": "../HARDWARE/MPU6050/mpu6050.h"
@@ -142,10 +154,10 @@
             "path": "../HARDWARE/OLED_Font.h"
           },
           {
-            "path": "../HARDWARE/OLED.c"
+            "path": "../HARDWARE/oled.c"
           },
           {
-            "path": "../HARDWARE/OLED.h"
+            "path": "../HARDWARE/oled.h"
           },
           {
             "path": "../HARDWARE/pid.c"
@@ -158,6 +170,12 @@
           },
           {
             "path": "../HARDWARE/timer.h"
+          },
+          {
+            "path": "../HARDWARE/vofa.c"
+          },
+          {
+            "path": "../HARDWARE/vofa.h"
           }
         ],
         "folders": []
