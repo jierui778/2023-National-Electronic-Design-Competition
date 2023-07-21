@@ -38,6 +38,9 @@
 "..\obj\pid.o"
 "..\obj\encoder.o"
 "..\obj\oled.o"
+"..\obj\control.o"
+"..\obj\motor.o"
+"..\obj\vofa.o"
 --library_type=microlib --strict --scatter "..\OBJ\F.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

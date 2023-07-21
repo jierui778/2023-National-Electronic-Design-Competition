@@ -1,0 +1,35 @@
+..\obj\vofa.o: ..\HARDWARE\vofa.c
+..\obj\vofa.o: ..\HARDWARE\vofa.h
+..\obj\vofa.o: ..\SYSTEM\sys\sys.h
+..\obj\vofa.o: ..\USER\stm32f10x.h
+..\obj\vofa.o: ..\CORE\core_cm3.h
+..\obj\vofa.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\vofa.o: ..\USER\system_stm32f10x.h
+..\obj\vofa.o: ..\USER\stm32f10x_conf.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_adc.h
+..\obj\vofa.o: ..\USER\stm32f10x.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_bkp.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_can.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_cec.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_crc.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_dac.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_dbgmcu.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_dma.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_exti.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_flash.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_fsmc.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_gpio.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_i2c.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_iwdg.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_pwr.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_rcc.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_rtc.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_sdio.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_spi.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_tim.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_usart.h
+..\obj\vofa.o: ..\FWLIB\inc\stm32f10x_wwdg.h
+..\obj\vofa.o: ..\FWLIB\inc\misc.h
+..\obj\vofa.o: ..\SYSTEM\usart\usart.h
+..\obj\vofa.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\vofa.o: ..\SYSTEM\delay\delay.h

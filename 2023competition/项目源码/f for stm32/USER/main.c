@@ -8,29 +8,33 @@
 #include "math.h"
 #include "delay.h"
 #include "pid.h"
+#include "motor.h"
 
 float Pitch,Roll,Yaw;
+int value,value2;
 int main(void)
 {
 
-    // Encoder_Init();
+    Encoder_Init();
     uart_init(9600);
     // // Vofa_Serial_init(9600);
     delay_init();
+    Motor_Init();
+    
 	
 		//MPU6050初始化
-		MPU6050_IIC_Init();
-		MPU6050_initialize();
-		DMP_Init();
-		TIM2_Getsample_Int();
+		// MPU6050_IIC_Init();
+		// MPU6050_initialize();
+		// DMP_Init();
+		// TIM2_Getsample_Int();
 	
 	
 	
 	
-    // TIM1_PWM_Init(4500, 0); // 10Khz的PWM频率
-    // TIM_SetCompare1(TIM1, 1000); // 0%占空比
-    // TIM_SetCompare4(TIM1, 4000);
-    // int value;
+//    TIM1_PWM_Init(7199, 0); // 10Khz的PWM频率
+    TIM_SetCompare1(TIM1, 4000); // 0%占空比
+    TIM_SetCompare4(TIM1, 3000);
+    
     //    int16_t AX, AY, AZ, GX, GY, GZ;
     //    uint8_t ID;
     //       OLED_Init(); // OLED初始化
@@ -38,46 +42,62 @@ int main(void)
     //    //                 //     OLED_Init();
        
     //    MPU6050_Init();
-       
-       float a=0;
-       float b=0;
-       float c=0;
+//       
+//       float a=0;
+//       float b=0;
+//       float c=0;
+           GPIO_InitTypeDef GPIO_InitStructure;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);                                // 使能GPIOB时钟
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15; // 端口配置
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;                                     // 推挽输出
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init(GPIOB, &GPIO_InitStructure); // 根据设定参数初始化GPIOB
+    
+    
+               GPIO_SetBits(GPIOB,GPIO_Pin_12);
+           GPIO_ResetBits(GPIOB,GPIO_Pin_13);
+           GPIO_SetBits(GPIOB,GPIO_Pin_14);
+           GPIO_ResetBits(GPIOB,GPIO_Pin_15);
        while (1) {
            
-           a = PositionPIDToSpeed(b, SpeedDate);
-           c += a;
 
-           printf("%f,%f,%f\n", a, b, c);
-           b = c - 1000;
-           // c为速度，b为误差，a为pwm
+           value=Read_Encoder(3);
+           value2 = Read_Encoder(4);
+           printf("%d,%d\n",value,value2);
+//           
+//          //  a = PositionPIDToSpeed(b, SpeedDate);
+//          //  c += a;
+
+//            printf("%d\n", value);
+//          //  b = c - 1000;
+//           // c为速度，b为误差，a为pwm
 
 
-           // t += 0.1;
-           // printf("demo:%f,%f,%f,%f\n", sin(t), sin(2 * t), sin(3 * t), sin(4 * t));
-           // FireWater_Send('demo', 1, 1, 1, 1);
-           // temp=Read_Encoder(4);
-           // printf("%d\n",temp);
-           delay_ms(100);
+//           // t += 0.1;
+//           // printf("demo:%f,%f,%f,%f\n", sin(t), sin(2 * t), sin(3 * t), sin(4 * t));
+//           // FireWater_Send('demo', 1, 1, 1, 1);
+//           // temp=Read_Encoder(4);
+//           // printf("%d\n",temp);
 
-            //  MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ); // 读取6轴原始数据
-            //  ID = MPU6050_GetID();
-            //  printf("AX:%d,AY:%d,AZ:%d,GX:%d,GY:%d,GZ:%d\n",AX,AY,AZ,GX,GY,GZ);
-            //  printf("ID:%d\n", ID);
-            //  delay_ms(1000);
-             
-            //              OLED_ShowSignedNum(1, 0, AX, 5, 16, 1);
-            //              OLED_ShowSignedNum(1, 24, AY, 5, 16, 1);
-            //              OLED_ShowSignedNum(1, 48, AZ, 5, 16, 1);
-           
-            //              OLED_ShowSignedNum(64, 0, GX, 5, 16, 1);
-            //              OLED_ShowSignedNum(64, 24, GY, 5, 16, 1);
-            //              OLED_ShowSignedNum(64, 48, GZ, 5, 16, 1);
-            //              OLED_Refresh();
-					 OLED_ShowSignedNum(1, 0, Pitch*100, 5, 16, 1);
-					 OLED_ShowSignedNum(1, 24, Roll*100, 5, 16, 1);
-					 OLED_ShowSignedNum(1, 48, Yaw*100, 5, 16, 1);
+//            //  MPU6050_GetData(&AX, &AY, &AZ, &GX, &GY, &GZ); // 读取6轴原始数据
+//            //  ID = MPU6050_GetID();
+//            //  printf("AX:%d,AY:%d,AZ:%d,GX:%d,GY:%d,GZ:%d\n",AX,AY,AZ,GX,GY,GZ);
+//            //  printf("ID:%d\n", ID);
+            delay_ms(100);
+//             
+//            //              OLED_ShowSignedNum(1, 0, AX, 5, 16, 1);
+//            //              OLED_ShowSignedNum(1, 24, AY, 5, 16, 1);
+//            //              OLED_ShowSignedNum(1, 48, AZ, 5, 16, 1);
+//           
+//            //              OLED_ShowSignedNum(64, 0, GX, 5, 16, 1);
+//            //              OLED_ShowSignedNum(64, 24, GY, 5, 16, 1);
+//            //              OLED_ShowSignedNum(64, 48, GZ, 5, 16, 1);
+//            //              OLED_Refresh();
+//					 OLED_ShowSignedNum(1, 0, Pitch*100, 5, 16, 1);
+//					 OLED_ShowSignedNum(1, 24, Roll*100, 5, 16, 1);
+//					 OLED_ShowSignedNum(1, 48, Yaw*100, 5, 16, 1);
 
-					 OLED_Refresh();
+//					 OLED_Refresh();
 
            // OLED_ShowNum(uint8_t x, uint8_t y, uint32_t Number, uint8_t Length, uint8_t size1, uint8_t mode);
 
@@ -94,8 +114,7 @@ int main(void)
            // OLED_ShowChinese(72, 0, 4, 16, 1); // 子
            // OLED_ShowChinese(90, 0, 5, 16, 1); // 技
 
-           // value = (short)Read_Encoder(4);
-           // printf("%d\n",value);
+           
            // printf()
            //        OLED_ColorTurn(1);
            // OLED_ShowString(1, 1, "666");
