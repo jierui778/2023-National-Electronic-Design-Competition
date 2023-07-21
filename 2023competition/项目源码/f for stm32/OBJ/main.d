@@ -42,3 +42,4 @@
 ..\obj\main.o: ..\SYSTEM\delay\delay.h
 ..\obj\main.o: ..\HARDWARE\pid.h
 ..\obj\main.o: ..\HARDWARE\motor.h
+..\obj\main.o: ..\HARDWARE\control.h

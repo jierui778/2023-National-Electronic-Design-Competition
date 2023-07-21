@@ -9,9 +9,10 @@
 #include "delay.h"
 #include "pid.h"
 #include "motor.h"
+#include "control.h"
 
 float Pitch,Roll,Yaw;
-int value,value2;
+float value,value2,value3,value4;
 int main(void)
 {
 
@@ -62,8 +63,14 @@ int main(void)
            
 
            value=Read_Encoder(3);
+           value3=ChangeSpeedMotorL(value,500);
+                      TIM_SetCompare1(TIM1, value3); // 0%占空比
            value2 = Read_Encoder(4);
-           printf("%d,%d\n",value,value2);
+           
+           value4=ChangeSpeedMotorR(value2,500);
+
+           TIM_SetCompare4(TIM1, 7200-value4);
+           printf("%f,%f\n",value,value2);
 //           
 //          //  a = PositionPIDToSpeed(b, SpeedDate);
 //          //  c += a;

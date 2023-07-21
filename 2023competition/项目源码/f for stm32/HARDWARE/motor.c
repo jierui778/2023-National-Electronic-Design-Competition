@@ -11,21 +11,6 @@ void Motor_Init()
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOB, &GPIO_InitStructure); // 根据设定参数初始化GPIOB
 }
-/*函数功能：限制PWM赋值
-入口参数：无
-返回  值：无*/
-//void Pwm_Limit(MotorL, MotorR)
-//{
-//    if (MotorL > 4000)
-//        MotorL = 4000;
-//    if (MotorL < -4000)
-//        MotorL = -4000;
-//    if (MotorR > 4000)
-//        MotorR = 4000;
-//    if (MotorR < -4000)
-//        MotorR = -4000;
-//}
-
 /*函数功能：赋值给PWM寄存器
 入口参数：左轮PWM、右轮PWM
 返回 值：无 */
