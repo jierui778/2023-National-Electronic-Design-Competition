@@ -30,3 +30,4 @@
 ..\obj\pid.o: ..\FWLIB\inc\stm32f10x_usart.h
 ..\obj\pid.o: ..\FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\pid.o: ..\FWLIB\inc\misc.h
+..\obj\pid.o: ..\HARDWARE\motor.h

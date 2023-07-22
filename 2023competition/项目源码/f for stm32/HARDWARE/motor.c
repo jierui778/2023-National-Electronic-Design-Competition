@@ -10,49 +10,39 @@ void Motor_Init()
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;                                     // 推挽输出
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOB, &GPIO_InitStructure); // 根据设定参数初始化GPIOB
+    
+    
+    
+       
+    
 }
-/*函数功能：限制PWM赋值
-入口参数：无
-返回  值：无*/
-//void Pwm_Limit(MotorL, MotorR)
-//{
-//    if (MotorL > 4000)
-//        MotorL = 4000;
-//    if (MotorL < -4000)
-//        MotorL = -4000;
-//    if (MotorR > 4000)
-//        MotorR = 4000;
-//    if (MotorR < -4000)
-//        MotorR = -4000;
-//}
-
-/*函数功能：赋值给PWM寄存器
-入口参数：左轮PWM、右轮PWM
-返回 值：无 */
-void Set_Pwm(uint8_t MotorL, uint8_t MotorR)
+void SetPwm_MotorL(int pwml)
 {
-    if (MotorL > 0)
+    if (pwml > 0)
     {
         Ain1 = 1;
         Ain2 = 0;
-        PWML = MotorL;
+        TIM_SetCompare1(TIM1, 7199-pwml);
     }
     else
     {
         Ain1 = 0;
         Ain2 = 1;
-        PWML = -MotorL;
+        TIM_SetCompare1(TIM1, 7199+pwml);
     }
-    if (MotorR > 0)
+}
+void SetPwm_MotorR(int pwm)
+{
+    if (pwm > 0)
     {
         Bin1 = 1;
         Bin2 = 0;
-        PWMR = MotorR;
+        TIM_SetCompare4(TIM1, pwm);
     }
     else
     {
         Bin1 = 0;
         Bin2 = 1;
-        PWMR = -MotorR;
+        TIM_SetCompare4(TIM1, -pwm);
     }
 }
