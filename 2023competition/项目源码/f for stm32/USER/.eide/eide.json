@@ -10,6 +10,18 @@
     "files": [],
     "folders": [
       {
+        "name": "USER",
+        "files": [
+          {
+            "path": "main.c"
+          },
+          {
+            "path": "stm32f10x_it.c"
+          }
+        ],
+        "folders": []
+      },
+      {
         "name": "CORE",
         "files": [
           {
@@ -100,25 +112,28 @@
         "folders": []
       },
       {
+        "name": "SYSTEM",
+        "files": [
+          {
+            "path": "../SYSTEM/delay/delay.c"
+          },
+          {
+            "path": "../SYSTEM/sys/sys.c"
+          },
+          {
+            "path": "../SYSTEM/usart/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
         "name": "HARDWARE",
         "files": [
           {
-            "path": "../HARDWARE/control.c"
+            "path": "../HARDWARE/MPU6050/IIC/IIC.c"
           },
           {
-            "path": "../HARDWARE/control.h"
-          },
-          {
-            "path": "../HARDWARE/encoder.c"
-          },
-          {
-            "path": "../HARDWARE/encoder.h"
-          },
-          {
-            "path": "../HARDWARE/motor.c"
-          },
-          {
-            "path": "../HARDWARE/motor.h"
+            "path": "../HARDWARE/MPU6050/IIC/IIC.h"
           },
           {
             "path": "../HARDWARE/MPU6050/DMP/dmpKey.h"
@@ -139,31 +154,10 @@
             "path": "../HARDWARE/MPU6050/DMP/inv_mpu.h"
           },
           {
-            "path": "../HARDWARE/MPU6050/IIC/IIC.c"
-          },
-          {
-            "path": "../HARDWARE/MPU6050/IIC/IIC.h"
-          },
-          {
-            "path": "../HARDWARE/MPU6050/mpu6050.c"
+            "path": "../HARDWARE/MPU6050/MPU6050.c"
           },
           {
             "path": "../HARDWARE/MPU6050/mpu6050.h"
-          },
-          {
-            "path": "../HARDWARE/OLED_Font.h"
-          },
-          {
-            "path": "../HARDWARE/oled.c"
-          },
-          {
-            "path": "../HARDWARE/oled.h"
-          },
-          {
-            "path": "../HARDWARE/pid.c"
-          },
-          {
-            "path": "../HARDWARE/pid.h"
           },
           {
             "path": "../HARDWARE/timer.c"
@@ -172,37 +166,43 @@
             "path": "../HARDWARE/timer.h"
           },
           {
+            "path": "../HARDWARE/pid.c"
+          },
+          {
+            "path": "../HARDWARE/pid.h"
+          },
+          {
+            "path": "../HARDWARE/encoder.c"
+          },
+          {
+            "path": "../HARDWARE/encoder.h"
+          },
+          {
+            "path": "../HARDWARE/OLED.c"
+          },
+          {
+            "path": "../HARDWARE/OLED.h"
+          },
+          {
+            "path": "../HARDWARE/OLED_Font.h"
+          },
+          {
+            "path": "../HARDWARE/control.c"
+          },
+          {
+            "path": "../HARDWARE/control.h"
+          },
+          {
+            "path": "../HARDWARE/motor.c"
+          },
+          {
+            "path": "../HARDWARE/motor.h"
+          },
+          {
             "path": "../HARDWARE/vofa.c"
           },
           {
             "path": "../HARDWARE/vofa.h"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "SYSTEM",
-        "files": [
-          {
-            "path": "../SYSTEM/delay/delay.c"
-          },
-          {
-            "path": "../SYSTEM/sys/sys.c"
-          },
-          {
-            "path": "../SYSTEM/usart/usart.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "USER",
-        "files": [
-          {
-            "path": "main.c"
-          },
-          {
-            "path": "stm32f10x_it.c"
           }
         ],
         "folders": []
