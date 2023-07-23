@@ -1,0 +1,99 @@
+[2023-07-23 16:03:09]	compilation failed at : "c:\Users\JIERUI\Desktop\2023电赛\competition\2023competition\项目源码\for stm32f103zet6\USER\main.c", exit code: 1
+command: 
+  "C:\Program Files\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../CORE -I../FWILB/inc -I../HARDWARE -I../SYSTEM/delay -I../SYSTEM/sys -I../SYSTEM/usart -I../USER -I../FWILB/src -I../HARDWARE/MPU6050/DMP -I../HARDWARE/MPU6050/IIC -I../HARDWARE/MPU6050 -I.cmsis/include -IRTE/_ZET6 -I.eide/deps -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\ZET6\__\USER\main.o --no_depend_system_headers --depend .\build\ZET6\__\USER\main.d .\..\USER\main.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\USER\main.c", line 4: Error:  #5: cannot open source input file "mpu6050.h": No such file or directory
+  #include "mpu6050.h"
+                      ^
+.\..\USER\main.c: 0 warnings, 1 error
+
+[2023-07-23 16:03:31]	compilation failed at : "c:\Users\JIERUI\Desktop\2023电赛\competition\2023competition\项目源码\for stm32f103zet6\USER\main.c", exit code: 1
+command: 
+  "C:\Program Files\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../CORE -I../FWILB/inc -I../HARDWARE -I../SYSTEM/delay -I../SYSTEM/sys -I../SYSTEM/usart -I../USER -I../FWILB/src -I../HARDWARE/MPU6050/DMP -I../HARDWARE/MPU6050/IIC -I../HARDWARE/MPU6050 -I.cmsis/include -IRTE/_ZET6 -I.eide/deps -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\ZET6\__\USER\main.o --no_depend_system_headers --depend .\build\ZET6\__\USER\main.d .\..\USER\main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\USER\main.c", line 4: Error:  #5: cannot open source input file "mpu6050.h": No such file or directory
+  #include "mpu6050.h"
+                      ^
+.\..\USER\main.c: 0 warnings, 1 error
+
+[2023-07-23 16:03:37]	[done]
+	build successfully !
+
+[2023-07-23 16:10:54]	[done]
+	build successfully !
+
+[2023-07-23 16:37:31]	compilation failed at : "c:\Users\JIERUI\Desktop\2023电赛\competition\2023competition\项目源码\for stm32f103zet6\HARDWARE\MPU6050\mpu6050.c", exit code: 1
+command: 
+  "C:\Program Files\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../CORE -I../FWILB/inc -I../HARDWARE -I../SYSTEM/delay -I../SYSTEM/sys -I../SYSTEM/usart -I../USER -I../FWILB/src -I../HARDWARE/MPU6050/DMP -I../HARDWARE/MPU6050/IIC -I../HARDWARE/MPU6050 -I.cmsis/include -IRTE/_ZET6 -I.eide/deps -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\ZET6\__\HARDWARE\MPU6050\mpu6050.o --no_depend_system_headers --depend .\build\ZET6\__\HARDWARE\MPU6050\mpu6050.d .\..\HARDWARE\MPU6050\mpu6050.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\HARDWARE\MPU6050\mpu6050.c", line 4: Error: At end of source:  #40: expected an identifier
+".\..\HARDWARE\MPU6050\mpu6050.c", line 4: Error: At end of source:  #65: expected a ";"
+.\..\HARDWARE\MPU6050\mpu6050.c: 0 warnings, 2 errors
+
+[2023-07-23 16:38:04]	[done]
+	build successfully !
+
+[2023-07-23 19:54:08]	compilation failed at : "c:\Users\JIERUI\Desktop\2023电赛\competition\2023competition\项目源码\for stm32f103zet6\HARDWARE\MPU6050\mpu6050.c", exit code: 1
+command: 
+  "C:\Program Files\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../CORE -I../FWILB/inc -I../HARDWARE -I../SYSTEM/delay -I../SYSTEM/sys -I../SYSTEM/usart -I../USER -I../FWILB/src -I../HARDWARE/MPU6050/DMP -I../HARDWARE/MPU6050/IIC -I../HARDWARE/MPU6050 -I.cmsis/include -IRTE/_ZET6 -I.eide/deps -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\ZET6\__\HARDWARE\MPU6050\mpu6050.o --no_depend_system_headers --depend .\build\ZET6\__\HARDWARE\MPU6050\mpu6050.d .\..\HARDWARE\MPU6050\mpu6050.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\HARDWARE\MPU6050\mpu6050.c", line 4: Error:  #240: duplicate specifier in declaration
+  short short MPU6050_GetTemperature(void)
+        ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 10: Error:  #29: expected an expression
+  }
+  ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 10: Error:  #65: expected a ";"
+  }
+  ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 10: Warning:  #940-D: missing return statement at end of non-void function "MPU6050_GetTemperature" 
+  }
+  ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 6: Warning:  #177-D: variable "buf"  was declared but never referenced
+      uint8_t buf[2];
+              ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 7: Warning:  #550-D: variable "temp"  was set but never used
+      float temp;
+            ^
+.\..\HARDWARE\MPU6050\mpu6050.c: 3 warnings, 3 errors
+
+[2023-07-23 19:55:08]	compilation failed at : "c:\Users\JIERUI\Desktop\2023电赛\competition\2023competition\项目源码\for stm32f103zet6\HARDWARE\MPU6050\mpu6050.c", exit code: 1
+command: 
+  "C:\Program Files\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../CORE -I../FWILB/inc -I../HARDWARE -I../SYSTEM/delay -I../SYSTEM/sys -I../SYSTEM/usart -I../USER -I../FWILB/src -I../HARDWARE/MPU6050/DMP -I../HARDWARE/MPU6050/IIC -I../HARDWARE/MPU6050 -I.cmsis/include -IRTE/_ZET6 -I.eide/deps -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\ZET6\__\HARDWARE\MPU6050\mpu6050.o --no_depend_system_headers --depend .\build\ZET6\__\HARDWARE\MPU6050\mpu6050.d .\..\HARDWARE\MPU6050\mpu6050.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\HARDWARE\MPU6050\mpu6050.c", line 4: Error:  #240: duplicate specifier in declaration
+  short short MPU6050_GetTemperature(void)
+        ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 10: Error:  #29: expected an expression
+  }
+  ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 10: Error:  #65: expected a ";"
+  }
+  ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 10: Warning:  #940-D: missing return statement at end of non-void function "MPU6050_GetTemperature" 
+  }
+  ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 6: Warning:  #177-D: variable "buf"  was declared but never referenced
+      uint8_t buf[2];
+              ^
+".\..\HARDWARE\MPU6050\mpu6050.c", line 7: Warning:  #550-D: variable "temp"  was set but never used
+      float temp;
+            ^
+.\..\HARDWARE\MPU6050\mpu6050.c: 3 warnings, 3 errors
+
+[2023-07-23 19:55:21]	[done]
+	build successfully !
+
+[2023-07-23 20:21:39]	[done]
+	build successfully !
+
+[2023-07-23 20:22:33]	[done]
+	build successfully !
+
