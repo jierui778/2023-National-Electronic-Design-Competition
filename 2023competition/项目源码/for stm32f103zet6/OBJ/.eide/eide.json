@@ -1,0 +1,338 @@
+{
+  "name": "stm32f103zet6",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "CORE",
+        "files": [
+          {
+            "path": "../CORE/core_cm3.c"
+          },
+          {
+            "path": "../CORE/startup_stm32f10x_hd.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "FWLIB",
+        "files": [
+          {
+            "path": "../FWILB/src/misc.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_adc.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_bkp.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_can.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_cec.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_crc.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_dac.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_dbgmcu.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_dma.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_exti.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_flash.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_fsmc.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_gpio.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_i2c.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_iwdg.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_pwr.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_rcc.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_rtc.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_sdio.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_spi.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_tim.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_usart.c"
+          },
+          {
+            "path": "../FWILB/src/stm32f10x_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HARDWARE",
+        "files": [
+          {
+            "path": "../HARDWARE/MPU6050/mpu6050.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/mpu6050.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/dmpKey.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/dmpmap.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.h"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/IIC/IIC.c"
+          },
+          {
+            "path": "../HARDWARE/MPU6050/IIC/IIC.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "SYSTEM",
+        "files": [
+          {
+            "path": "../SYSTEM/delay/delay.c"
+          },
+          {
+            "path": "../SYSTEM/sys/sys.c"
+          },
+          {
+            "path": "../SYSTEM/usart/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "../USER/stm32f10x_it.c"
+          },
+          {
+            "path": "../USER/system_stm32f10x.c"
+          },
+          {
+            "path": "../USER/main.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "845c296d9906d6cd4072d06089f5fae6"
+  },
+  "targets": {
+    "ZET6": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "cmsis-dap-v1",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../CORE",
+          "../FWILB/inc",
+          "../HARDWARE",
+          "../SYSTEM/delay",
+          "../SYSTEM/sys",
+          "../SYSTEM/usart",
+          "../USER",
+          "../FWILB/src",
+          "../HARDWARE/MPU6050/DMP",
+          "../HARDWARE/MPU6050/IIC",
+          "../HARDWARE/MPU6050",
+          ".cmsis/include",
+          "RTE/_ZET6",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "STM32F10X_HD",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
