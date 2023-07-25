@@ -30,8 +30,14 @@
 ".\objects\stm32f10x_tim.o"
 ".\objects\stm32f10x_usart.o"
 ".\objects\stm32f10x_wwdg.o"
+<<<<<<< HEAD
 ".\objects\oled.o"
 ".\objects\mpu6050.o"
+=======
+".\objects\mpu6050.o"
+".\objects\inv_mpu.o"
+".\objects\inv_mpu_dmp_motion_driver.o"
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
 ".\objects\iic.o"
 --strict --scatter ".\Objects\stm32f103zet6.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols

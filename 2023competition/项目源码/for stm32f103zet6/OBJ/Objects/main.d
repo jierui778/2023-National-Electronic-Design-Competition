@@ -32,5 +32,13 @@
 .\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\SYSTEM\sys\sys.h
 .\objects\main.o: ..\SYSTEM\delay\delay.h
+<<<<<<< HEAD
 .\objects\main.o: ..\HARDWARE\oled.h
 .\objects\main.o: ..\HARDWARE\mpu6050\mpu6050.h
+=======
+.\objects\main.o: ..\HARDWARE\MPU6050\mpu6050.h
+.\objects\main.o: ..\HARDWARE\MPU6050\IIC\IIC.h
+.\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: ..\HARDWARE\MPU6050\DMP\inv_mpu.h
+.\objects\main.o: ..\HARDWARE\MPU6050\DMP\inv_mpu_dmp_motion_driver.h
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c

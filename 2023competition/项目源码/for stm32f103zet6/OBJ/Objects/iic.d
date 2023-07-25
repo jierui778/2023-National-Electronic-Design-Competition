@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .\objects\iic.o: ..\HARDWARE\iic\iic.c
 .\objects\iic.o: ..\HARDWARE\iic\iic.h
+=======
+.\objects\iic.o: ..\HARDWARE\MPU6050\IIC\IIC.c
+.\objects\iic.o: ..\HARDWARE\MPU6050\IIC\IIC.h
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
 .\objects\iic.o: ..\SYSTEM\sys\sys.h
 .\objects\iic.o: ..\USER\stm32f10x.h
 .\objects\iic.o: ..\CORE\core_cm3.h
@@ -31,4 +36,7 @@
 .\objects\iic.o: ..\FWILB\inc\stm32f10x_wwdg.h
 .\objects\iic.o: ..\FWILB\inc\misc.h
 .\objects\iic.o: ..\SYSTEM\delay\delay.h
+<<<<<<< HEAD
 .\objects\iic.o: ..\HARDWARE\mpu6050\mpu6050.h
+=======
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c

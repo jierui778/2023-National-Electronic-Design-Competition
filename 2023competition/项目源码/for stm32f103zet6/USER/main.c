@@ -4,34 +4,28 @@
 #include "oled.h"
 #include "mpu6050.h"
 
-
 int temp;
-short a,b,c;
+short a, b, c;
 int main(void)
-{	
-    delay_init();
-    MPU6050_Init(); 
-//    uart_init(9600);  
-//    MPU_Init();
-    OLED_Init();
-    temp=MPU6050_Init();
-    
-    
-    
-while(1)
 {
-//    MPU6050_GetAccelerometer(&a,&b,&c);
-////    MPU_Get_Accelerometer(&aacx,&aacy,&aacz);	//µÃµ½¼ÓËÙ¶È´«¸ÐÆ÷Êý¾Ý
+    delay_init();
+    MPU6050_Init();
+    //    uart_init(9600);
+    //    MPU_Init();
+    OLED_Init();
+    temp = MPU6050_Init();
 
-	MPU6050_GetGyroscope(&a,&b,&c);
-    OLED_ShowSignedNum(1, 0, temp, 5, 16, 1);
-    OLED_ShowSignedNum(1, 16, b, 5, 16, 1);
-    OLED_ShowSignedNum(1, 32, c, 5, 16, 1);
-    OLED_Refresh();
+    while (1)
+    {
+        //    MPU6050_GetAccelerometer(&a,&b,&c);
+        ////    MPU_Get_Accelerometer(&aacx,&aacy,&aacz);	//ï¿½Ãµï¿½ï¿½ï¿½ï¿½Ù¶È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-//    printf("%d\n",temp);
-    
+        MPU6050_GetGyroscope(&a, &b, &c);
+        OLED_ShowSignedNum(1, 0, temp, 5, 16, 1);
+        OLED_ShowSignedNum(1, 16, b, 5, 16, 1);
+        OLED_ShowSignedNum(1, 32, c, 5, 16, 1);
+        OLED_Refresh();
 
+        //    printf("%d\n",temp);
+    }
 }
-}
-

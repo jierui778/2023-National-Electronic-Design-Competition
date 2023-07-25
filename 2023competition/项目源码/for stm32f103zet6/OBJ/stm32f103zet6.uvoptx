@@ -148,6 +148,7 @@
           <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000 -FP0($$Device:STM32F103ZE$Flash\STM32F10x_512.FLM))</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
+<<<<<<< HEAD
       <Breakpoint>
         <Bp>
           <Number>0</Number>
@@ -182,6 +183,9 @@
           <Expression>\\stm32f103zet6\../USER/main.c\16</Expression>
         </Bp>
       </Breakpoint>
+=======
+      <Breakpoint/>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <WatchWindow1>
         <Ww>
           <count>0</count>
@@ -654,12 +658,21 @@
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>32</FileNumber>
+<<<<<<< HEAD
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\oled.h</PathWithFileName>
       <FilenameWithoutPath>oled.h</FilenameWithoutPath>
+=======
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\mpu6050.c</PathWithFileName>
+      <FilenameWithoutPath>mpu6050.c</FilenameWithoutPath>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -670,6 +683,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD
       <PathWithFileName>..\HARDWARE\OLED_Font.h</PathWithFileName>
       <FilenameWithoutPath>OLED_Font.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -707,31 +721,123 @@
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\mpu6050\mpu6050.h</PathWithFileName>
+=======
+      <PathWithFileName>..\HARDWARE\MPU6050\mpu6050.h</PathWithFileName>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <FilenameWithoutPath>mpu6050.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
+<<<<<<< HEAD
       <FileNumber>37</FileNumber>
+=======
+      <FileNumber>34</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\DMP\dmpKey.h</PathWithFileName>
+      <FilenameWithoutPath>dmpKey.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>35</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\DMP\dmpmap.h</PathWithFileName>
+      <FilenameWithoutPath>dmpmap.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>36</FileNumber>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD
       <PathWithFileName>..\HARDWARE\iic\iic.c</PathWithFileName>
       <FilenameWithoutPath>iic.c</FilenameWithoutPath>
+=======
+      <PathWithFileName>..\HARDWARE\MPU6050\DMP\inv_mpu.c</PathWithFileName>
+      <FilenameWithoutPath>inv_mpu.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>37</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\DMP\inv_mpu.h</PathWithFileName>
+      <FilenameWithoutPath>inv_mpu.h</FilenameWithoutPath>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>38</FileNumber>
+<<<<<<< HEAD
+=======
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\DMP\inv_mpu_dmp_motion_driver.c</PathWithFileName>
+      <FilenameWithoutPath>inv_mpu_dmp_motion_driver.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>39</FileNumber>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD
       <PathWithFileName>..\HARDWARE\iic\iic.h</PathWithFileName>
       <FilenameWithoutPath>iic.h</FilenameWithoutPath>
+=======
+      <PathWithFileName>..\HARDWARE\MPU6050\DMP\inv_mpu_dmp_motion_driver.h</PathWithFileName>
+      <FilenameWithoutPath>inv_mpu_dmp_motion_driver.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>40</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\IIC\IIC.c</PathWithFileName>
+      <FilenameWithoutPath>IIC.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>41</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\MPU6050\IIC\IIC.h</PathWithFileName>
+      <FilenameWithoutPath>IIC.h</FilenameWithoutPath>
+>>>>>>> 376e7ba89a8f26fb38acf624dbfee1809cbb597c
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
