@@ -1,6 +1,0 @@
-r
-halt
-loadfile "c:\Users\JIERUI\Desktop\2023电赛\competition\2023competition\项目源码\for stm32f103zet6\OBJ\build\ZET6\stm32f103zet6.hex"
-r
-go
-exit

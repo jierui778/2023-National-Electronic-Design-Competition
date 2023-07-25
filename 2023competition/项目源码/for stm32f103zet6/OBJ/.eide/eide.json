@@ -22,6 +22,36 @@
         "folders": []
       },
       {
+        "name": "SYSTEM",
+        "files": [
+          {
+            "path": "../SYSTEM/delay/delay.c"
+          },
+          {
+            "path": "../SYSTEM/sys/sys.c"
+          },
+          {
+            "path": "../SYSTEM/usart/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "../USER/stm32f10x_it.c"
+          },
+          {
+            "path": "../USER/system_stm32f10x.c"
+          },
+          {
+            "path": "../USER/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
         "name": "FWLIB",
         "files": [
           {
@@ -100,64 +130,25 @@
         "name": "HARDWARE",
         "files": [
           {
-            "path": "../HARDWARE/MPU6050/mpu6050.c"
+            "path": "../HARDWARE/oled.h"
           },
           {
-            "path": "../HARDWARE/MPU6050/mpu6050.h"
+            "path": "../HARDWARE/OLED_Font.h"
           },
           {
-            "path": "../HARDWARE/MPU6050/DMP/dmpKey.h"
+            "path": "../HARDWARE/oled.c"
           },
           {
-            "path": "../HARDWARE/MPU6050/DMP/dmpmap.h"
+            "path": "../HARDWARE/mpu6050/mpu6050.c"
           },
           {
-            "path": "../HARDWARE/MPU6050/DMP/inv_mpu.c"
+            "path": "../HARDWARE/mpu6050/mpu6050.h"
           },
           {
-            "path": "../HARDWARE/MPU6050/DMP/inv_mpu.h"
+            "path": "../HARDWARE/iic/iic.c"
           },
           {
-            "path": "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.c"
-          },
-          {
-            "path": "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.h"
-          },
-          {
-            "path": "../HARDWARE/MPU6050/IIC/IIC.c"
-          },
-          {
-            "path": "../HARDWARE/MPU6050/IIC/IIC.h"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "SYSTEM",
-        "files": [
-          {
-            "path": "../SYSTEM/delay/delay.c"
-          },
-          {
-            "path": "../SYSTEM/sys/sys.c"
-          },
-          {
-            "path": "../SYSTEM/usart/usart.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "USER",
-        "files": [
-          {
-            "path": "../USER/stm32f10x_it.c"
-          },
-          {
-            "path": "../USER/system_stm32f10x.c"
-          },
-          {
-            "path": "../USER/main.c"
+            "path": "../HARDWARE/iic/iic.h"
           }
         ],
         "folders": []
@@ -318,12 +309,9 @@
           "../SYSTEM/usart",
           "../USER",
           "../FWILB/src",
-          "../HARDWARE/MPU6050/DMP",
-          "../HARDWARE/MPU6050/IIC",
-          "../HARDWARE/MPU6050",
-          ".cmsis/include",
-          "RTE/_ZET6",
-          ".eide/deps"
+          "../HARDWARE/iic",
+          "../HARDWARE/mpu6050",
+          "RTE/_ZET6"
         ],
         "libList": [],
         "sourceDirList": [],
