@@ -36,7 +36,6 @@ void OLED_I2C_Start(void)
 	OLED_SDA_Clr();
 
 	OLED_SCL_Clr();
-
 }
 
 /**

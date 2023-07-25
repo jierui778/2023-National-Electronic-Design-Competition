@@ -20,9 +20,9 @@
 #define SDA_OUT() {GPIOB->CRL&=0X0FFFFFFF;GPIOB->CRL|=(u32)3<<28;}
 
 //IO操作函数	 
-#define IIC_SCL    PBout(6) //SCL
-#define IIC_SDA    PBout(7) //SDA	 
-#define READ_SDA   PBin(7)  //输入SDA 
+#define IIC_SCL    PCout(11) //SCL
+#define IIC_SDA    PCout(12) //SDA	 
+#define READ_SDA   PCin(12)  //输入SDA 
 
 //IIC所有操作函数
 void MPU6050_IIC_Init(void);                //初始化IIC的IO口				 

@@ -1,6 +1,6 @@
 Dependencies for Project 'F', Target 'F': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\main.c)(0x64BB8619)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x64BBD030)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x64B63251)
 I (..\CORE\core_cm3.h)(0x64B63250)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -43,8 +43,8 @@ I (..\HARDWARE\encoder.h)(0x64B788D3)
 I (..\HARDWARE\oled.h)(0x64B7A8A5)
 I (..\SYSTEM\delay\delay.h)(0x64B63250)
 I (..\HARDWARE\pid.h)(0x64BA7EA6)
-I (..\HARDWARE\motor.h)(0x64BB7A71)
-I (..\HARDWARE\control.h)(0x64BA84D7)
+I (..\HARDWARE\motor.h)(0x64BBD030)
+I (..\HARDWARE\control.h)(0x64BBD030)
 F (.\stm32f10x_it.c)(0x64B63251)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x64B63251)
 I (stm32f10x.h)(0x64B63251)
@@ -1029,7 +1029,7 @@ I (..\HARDWARE\MPU6050\DMP\inv_mpu_dmp_motion_driver.h)(0x64B925BB)
 I (..\SYSTEM\usart\usart.h)(0x64B63250)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 F (..\HARDWARE\timer.h)(0x64B925BB)()
-F (..\HARDWARE\pid.c)(0x64BB7A9E)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\pid.o --omf_browse ..\obj\pid.crf --depend ..\obj\pid.d)
+F (..\HARDWARE\pid.c)(0x64BBD030)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\pid.o --omf_browse ..\obj\pid.crf --depend ..\obj\pid.d)
 I (..\HARDWARE\pid.h)(0x64BA7EA6)
 I (..\SYSTEM\sys\sys.h)(0x64B63250)
 I (..\USER\stm32f10x.h)(0x64B63251)
@@ -1060,7 +1060,7 @@ I (..\FWLIB\inc\stm32f10x_tim.h)(0x64B63250)
 I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B63250)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64B63250)
 I (..\FWLIB\inc\misc.h)(0x64B63250)
-I (..\HARDWARE\motor.h)(0x64BB7A71)
+I (..\HARDWARE\motor.h)(0x64BBD030)
 F (..\HARDWARE\pid.h)(0x64BA7EA6)()
 F (..\HARDWARE\encoder.c)(0x64B63250)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\encoder.o --omf_browse ..\obj\encoder.crf --depend ..\obj\encoder.d)
 I (..\HARDWARE\encoder.h)(0x64B788D3)
@@ -1137,8 +1137,8 @@ I (..\SYSTEM\sys\sys.h)(0x64B63250)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
 F (..\HARDWARE\OLED.h)(0x64B7A8A5)()
 F (..\HARDWARE\OLED_Font.h)(0x64B63250)()
-F (..\HARDWARE\control.c)(0x64BB757E)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
-I (..\HARDWARE\control.h)(0x64BA84D7)
+F (..\HARDWARE\control.c)(0x64BBD030)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
+I (..\HARDWARE\control.h)(0x64BBD030)
 I (..\SYSTEM\sys\sys.h)(0x64B63250)
 I (..\USER\stm32f10x.h)(0x64B63251)
 I (..\CORE\core_cm3.h)(0x64B63250)
@@ -1168,12 +1168,12 @@ I (..\FWLIB\inc\stm32f10x_tim.h)(0x64B63250)
 I (..\FWLIB\inc\stm32f10x_usart.h)(0x64B63250)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64B63250)
 I (..\FWLIB\inc\misc.h)(0x64B63250)
-I (..\HARDWARE\motor.h)(0x64BB7A71)
+I (..\HARDWARE\motor.h)(0x64BBD030)
 I (..\HARDWARE\encoder.h)(0x64B788D3)
 I (..\HARDWARE\pid.h)(0x64BA7EA6)
-F (..\HARDWARE\control.h)(0x64BA84D7)()
-F (..\HARDWARE\motor.c)(0x64BB84D5)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
-I (..\HARDWARE\motor.h)(0x64BB7A71)
+F (..\HARDWARE\control.h)(0x64BBD030)()
+F (..\HARDWARE\motor.c)(0x64BBD030)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+I (..\HARDWARE\motor.h)(0x64BBD030)
 I (..\SYSTEM\sys\sys.h)(0x64B63250)
 I (..\USER\stm32f10x.h)(0x64B63251)
 I (..\CORE\core_cm3.h)(0x64B63250)
@@ -1211,7 +1211,7 @@ I (..\HARDWARE\MPU6050\DMP\inv_mpu.h)(0x64B925BB)
 I (..\HARDWARE\MPU6050\DMP\inv_mpu_dmp_motion_driver.h)(0x64B925BB)
 I (..\SYSTEM\usart\usart.h)(0x64B63250)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
-F (..\HARDWARE\motor.h)(0x64BB7A71)()
+F (..\HARDWARE\motor.h)(0x64BBD030)()
 F (..\HARDWARE\vofa.c)(0x64B7A8A5)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\inc -I ..\FWLIB\src -I ..\SYSTEM -I ..\FWLIB\src -I ..\HARDWARE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\MPU6050\IIC -I ..\HARDWARE\MPU6050\DMP-IC:\Users\JIERUI\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\vofa.o --omf_browse ..\obj\vofa.crf --depend ..\obj\vofa.d)
 I (..\HARDWARE\vofa.h)(0x64B7A8A5)
 I (..\SYSTEM\sys\sys.h)(0x64B63250)
