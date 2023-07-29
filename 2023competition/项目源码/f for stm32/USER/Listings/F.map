@@ -1436,7 +1436,7 @@ Removing Unused input sections from the image.
     Removing iic.o(i.IICwriteBits), (94 bytes).
     Removing iic.o(i.IICwriteByte), (12 bytes).
     Removing iic.o(i.IICwriteBytes), (68 bytes).
-    Removing iic.o(i.MPU6050_IIC_Init), (52 bytes).
+    Removing iic.o(i.MPU6050_IIC_Init), (56 bytes).
     Removing inv_mpu_dmp_motion_driver.o(i.dmp_enable_6x_lp_quat), (60 bytes).
     Removing inv_mpu_dmp_motion_driver.o(i.dmp_enable_feature), (492 bytes).
     Removing inv_mpu_dmp_motion_driver.o(i.dmp_enable_gyro_cal), (88 bytes).
@@ -1565,7 +1565,7 @@ Removing Unused input sections from the image.
     Removing dfixul.o(.text), (48 bytes).
     Removing cdrcmple.o(.text), (48 bytes).
 
-585 unused section(s) (total 40632 bytes) removed from the image.
+585 unused section(s) (total 40636 bytes) removed from the image.
 
 ==============================================================================
 

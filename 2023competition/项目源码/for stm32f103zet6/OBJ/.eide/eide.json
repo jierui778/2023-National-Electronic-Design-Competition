@@ -22,36 +22,6 @@
         "folders": []
       },
       {
-        "name": "SYSTEM",
-        "files": [
-          {
-            "path": "../SYSTEM/delay/delay.c"
-          },
-          {
-            "path": "../SYSTEM/sys/sys.c"
-          },
-          {
-            "path": "../SYSTEM/usart/usart.c"
-          }
-        ],
-        "folders": []
-      },
-      {
-        "name": "USER",
-        "files": [
-          {
-            "path": "../USER/stm32f10x_it.c"
-          },
-          {
-            "path": "../USER/system_stm32f10x.c"
-          },
-          {
-            "path": "../USER/main.c"
-          }
-        ],
-        "folders": []
-      },
-      {
         "name": "FWLIB",
         "files": [
           {
@@ -130,13 +100,10 @@
         "name": "HARDWARE",
         "files": [
           {
-            "path": "../HARDWARE/oled.h"
+            "path": "../HARDWARE/iic/iic.c"
           },
           {
-            "path": "../HARDWARE/OLED_Font.h"
-          },
-          {
-            "path": "../HARDWARE/oled.c"
+            "path": "../HARDWARE/iic/iic.h"
           },
           {
             "path": "../HARDWARE/mpu6050/mpu6050.c"
@@ -145,10 +112,43 @@
             "path": "../HARDWARE/mpu6050/mpu6050.h"
           },
           {
-            "path": "../HARDWARE/iic/iic.c"
+            "path": "../HARDWARE/OLED_Font.h"
           },
           {
-            "path": "../HARDWARE/iic/iic.h"
+            "path": "../HARDWARE/oled.c"
+          },
+          {
+            "path": "../HARDWARE/oled.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "SYSTEM",
+        "files": [
+          {
+            "path": "../SYSTEM/delay/delay.c"
+          },
+          {
+            "path": "../SYSTEM/sys/sys.c"
+          },
+          {
+            "path": "../SYSTEM/usart/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "../USER/stm32f10x_it.c"
+          },
+          {
+            "path": "../USER/system_stm32f10x.c"
+          },
+          {
+            "path": "../USER/main.c"
           }
         ],
         "folders": []

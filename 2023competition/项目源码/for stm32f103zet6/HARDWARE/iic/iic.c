@@ -3,8 +3,8 @@
 #include "mpu6050.h"
 
 /**
- * @description: 初始化IIC引脚
- * @return {*}无
+ * @description: IIC初始化函数
+ * @return {*}
  */
 void IIC_Init(void)
 {
@@ -31,7 +31,6 @@ void IIC_Start(void)
     delay_us(2);
     IIC_SCL = 0; // 钳住I2C总线，准备发送或接收数据
 }
-
 /**
  * @description: MPU_IIC发送停止信号
  * @return {*}无
