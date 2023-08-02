@@ -32,3 +32,6 @@
 .\objects\main.o: ..\SYSTEM\delay\delay.h
 .\objects\main.o: ..\SYSTEM\usart\usart.h
 .\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: ..\HARDWARE\OLED.h
+.\objects\main.o: ..\HARDWARE\sg90.h
+.\objects\main.o: ..\HARDWARE\pid.h

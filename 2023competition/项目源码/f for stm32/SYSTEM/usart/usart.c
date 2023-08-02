@@ -199,48 +199,48 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 //	USART_Cmd(USART3, ENABLE);
 //}
 
-void Serial_SendByte(uint8_t Byte)
-{
-	USART_SendData(USART3, Byte);
-	while (USART_GetFlagStatus(USART3, USART_FLAG_TXE) == RESET);
-}
+//void Serial_SendByte(uint8_t Byte)
+//{
+//	USART_SendData(USART3, Byte);
+//	while (USART_GetFlagStatus(USART3, USART_FLAG_TXE) == RESET);
+//}
 
-void Serial_SendArray(uint8_t *Array, uint16_t Length)
-{
-	uint16_t i;
-	for (i = 0; i < Length; i ++)
-	{
-		Serial_SendByte(Array[i]);
-	}
-}
+//void Serial_SendArray(uint8_t *Array, uint16_t Length)
+//{
+//	uint16_t i;
+//	for (i = 0; i < Length; i ++)
+//	{
+//		Serial_SendByte(Array[i]);
+//	}
+//}
 
-void Serial_SendString(char *String)
-{
-	uint8_t i;
-	for (i = 0; String[i] != '\0'; i ++)
-	{
-		Serial_SendByte(String[i]);
-	}
-}
+//void Serial_SendString(char *String)
+//{
+//	uint8_t i;
+//	for (i = 0; String[i] != '\0'; i ++)
+//	{
+//		Serial_SendByte(String[i]);
+//	}
+//}
 
-uint32_t Serial_Pow(uint32_t X, uint32_t Y)
-{
-	uint32_t Result = 1;
-	while (Y --)
-	{
-		Result *= X;
-	}
-	return Result;
-}
+//uint32_t Serial_Pow(uint32_t X, uint32_t Y)
+//{
+//	uint32_t Result = 1;
+//	while (Y --)
+//	{
+//		Result *= X;
+//	}
+//	return Result;
+//}
 
-void Serial_SendNumber(uint32_t Number, uint8_t Length)
-{
-	uint8_t i;
-	for (i = 0; i < Length; i ++)
-	{
-		Serial_SendByte(Number / Serial_Pow(10, Length - i - 1) % 10 + '0');
-	}
-}
+//void Serial_SendNumber(uint32_t Number, uint8_t Length)
+//{
+//	uint8_t i;
+//	for (i = 0; i < Length; i ++)
+//	{
+//		Serial_SendByte(Number / Serial_Pow(10, Length - i - 1) % 10 + '0');
+//	}
+//}
 //Printf 重定义重复
 //int fputc(int ch, FILE *f)
 //{
@@ -248,73 +248,73 @@ void Serial_SendNumber(uint32_t Number, uint8_t Length)
 //	return ch;
 //}
 
-void Serial_Printf(char *format, ...)
-{
-	char String[100];
-	va_list arg;
-	va_start(arg, format);
-	vsprintf(String, format, arg);
-	va_end(arg);
-	Serial_SendString(String);
-}
+//void Serial_Printf(char *format, ...)
+//{
+//	char String[100];
+//	va_list arg;
+//	va_start(arg, format);
+//	vsprintf(String, format, arg);
+//	va_end(arg);
+//	Serial_SendString(String);
+//}
 
 
-uint8_t Serial_GetRxFlag(void)
-{
-	if (Serial_RxFlag == 1)
-	{
-		Serial_RxFlag = 0;
-		return 1;
-	}
-	return 0;
-}
+//uint8_t Serial_GetRxFlag(void)
+//{
+//	if (Serial_RxFlag == 1)
+//	{
+//		Serial_RxFlag = 0;
+//		return 1;
+//	}
+//	return 0;
+//}
 
-void USART3_IRQHandler(void)
-{
-	static uint8_t RxState = 0;
-	static uint8_t pRxPacket = 0;
-	if (USART_GetITStatus(USART3, USART_IT_RXNE) == SET)
-	{
-		uint8_t RxData = USART_ReceiveData(USART3);
-		
-		if (RxState == 0)
-		{
-			if (RxData == 0xFF)
-			{
-				RxState = 1;	
-				pRxPacket = 0;
-			}
-		}
-		else if (RxState==1)
-		{
-			if (RxData == 0xFE)
-			{
-				RxState = 2;
+//void USART3_IRQHandler(void)
+//{
+//	static uint8_t RxState = 0;
+//	static uint8_t pRxPacket = 0;
+//	if (USART_GetITStatus(USART3, USART_IT_RXNE) == SET)
+//	{
+//		uint8_t RxData = USART_ReceiveData(USART3);
+//		
+//		if (RxState == 0)
+//		{
+//			if (RxData == 0xFF)
+//			{
+//				RxState = 1;	
+//				pRxPacket = 0;
+//			}
+//		}
+//		else if (RxState==1)
+//		{
+//			if (RxData == 0xFE)
+//			{
+//				RxState = 2;
 
-			}
-			else 
-			{
-				RxState =0;
-			}
-		}
-		else if (RxState == 2)
-		{
-			Serial_RxPacket[pRxPacket] = RxData;
-			pRxPacket ++;
-			if (pRxPacket >= 6)
-			{
-				RxState = 3;
-			}
-		}
-		else if (RxState == 3)
-		{
-			if (RxData == 0xFE)
-			{
-				RxState = 0;
-				Serial_RxFlag = 1;
-			}
-		}
+//			}
+//			else 
+//			{
+//				RxState =0;
+//			}
+//		}
+//		else if (RxState == 2)
+//		{
+//			Serial_RxPacket[pRxPacket] = RxData;
+//			pRxPacket ++;
+//			if (pRxPacket >= 6)
+//			{
+//				RxState = 3;
+//			}
+//		}
+//		else if (RxState == 3)
+//		{
+//			if (RxData == 0xFE)
+//			{
+//				RxState = 0;
+//				Serial_RxFlag = 1;
+//			}
+//		}
 
-		USART_ClearITPendingBit(USART3, USART_IT_RXNE);
-	}
-}
+//		USART_ClearITPendingBit(USART3, USART_IT_RXNE);
+//	}
+//}
