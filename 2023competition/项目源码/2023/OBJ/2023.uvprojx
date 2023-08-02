@@ -539,6 +539,43 @@
         </Group>
         <Group>
           <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>OLED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\OLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\OLED.h</FilePath>
+            </File>
+            <File>
+              <FileName>OLED_Font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\OLED_Font.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\pid.h</FilePath>
+            </File>
+            <File>
+              <FileName>sg90.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\sg90.c</FilePath>
+            </File>
+            <File>
+              <FileName>sg90.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\sg90.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>USER</GroupName>
