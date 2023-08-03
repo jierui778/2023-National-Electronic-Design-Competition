@@ -6,6 +6,7 @@
 #include "servo.h"
 #include "pid.h"
 #include "timer.h"
+#include "control.h"
 float x, y = 0.0;
 float Target_x = 120.0;
 float Target_y = 120.0;
@@ -14,18 +15,29 @@ float get_x, get_y;
 float servo_x = 1500.0; // 舵机目标值，
 float servo_y = 1500.0;
 uint16_t i;
+uint8_t Origin_FindFlag=0;
+uint8_t Targetx1 = 0, Targety1 = 0, Currentx1 = 0, Currenty1 = 0;
+uint8_t Targetx2 = 0, Targety2 = 0, Currentx2 = 0, Currenty2 = 0;
+uint8_t Stop_Flag = 0;
 
 int main(void)
 {
-    delay_init();    // 延时函数初始化
-    uart_init(9600); // 串口初始化为9600
-    OLED_Init();     // OLED初始化
-    // 	  Serial_Init();                                     //串口3初始化
-    TIM1_PWM_Init(20000 - 1, 72 - 1);
+    // 	  Serial_Init();                       //串口3初始化
+    Control_Init(); // 舵机初始化
+
     while (1)
     {
 
-        Servo_SetAngle_y(0);
-        Servo_SetAngle_x(5);
+        // Find_Origin(Targetx1, Targety1, Currentx1, Currenty1);
+        // if(Origin_FindFlag)//如果找到原点
+        // {
+        //     TrackLine(Targetx2, Targety2, Currentx2, Currenty2);//开启跟踪
+        // }
+
+
+
+
+
+        
     }
 }

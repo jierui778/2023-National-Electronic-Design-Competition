@@ -100,6 +100,12 @@
         "name": "HARDWARE",
         "files": [
           {
+            "path": "../HARDWARE/control.c"
+          },
+          {
+            "path": "../HARDWARE/key.c"
+          },
+          {
             "path": "../HARDWARE/OLED_Font.h"
           },
           {

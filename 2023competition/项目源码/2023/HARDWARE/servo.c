@@ -52,8 +52,4 @@ void Servo_Reset()
     Servo_SetAngle_x(0);
     Servo_SetAngle_y(0);
 }
-void Servo_TrackLine()
-{
-    
-}
 
