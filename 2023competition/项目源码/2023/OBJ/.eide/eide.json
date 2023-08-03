@@ -115,10 +115,7 @@
             "path": "../HARDWARE/pid.h"
           },
           {
-            "path": "../HARDWARE/sg90.c"
-          },
-          {
-            "path": "../HARDWARE/sg90.h"
+            "path": "../HARDWARE/servo.c"
           },
           {
             "path": "../HARDWARE/timer.c"
