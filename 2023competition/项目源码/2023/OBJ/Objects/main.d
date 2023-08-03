@@ -36,4 +36,7 @@
 .\objects\main.o: ..\HARDWARE\servo.h
 .\objects\main.o: ..\HARDWARE\pid.h
 .\objects\main.o: ..\HARDWARE\timer.h
+<<<<<<< HEAD
 .\objects\main.o: ..\HARDWARE\control.h
+=======
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a

@@ -830,8 +830,13 @@ I (..\FWLIB\inc\stm32f10x_usart.h)(0x64C99EBF)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64C99EBF)
 I (..\FWLIB\inc\misc.h)(0x64C99EBF)
 F (..\HARDWARE\pid.h)(0x64C9B6D0)()
+<<<<<<< HEAD
 F (..\HARDWARE\control.c)(0x64CB846A)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
 I (..\HARDWARE\control.h)(0x64CB846A)
+=======
+F (..\HARDWARE\control.c)(0x64CAF323)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
+I (..\HARDWARE\control.h)(0x64CAF6B5)
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
 I (..\SYSTEM\sys\sys.h)(0x64C99EC0)
 I (..\USER\stm32f10x.h)(0x64C99EC0)
 I (..\CORE\core_cm3.h)(0x64C99EBF)
@@ -862,6 +867,7 @@ I (..\FWLIB\inc\stm32f10x_usart.h)(0x64C99EBF)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64C99EBF)
 I (..\FWLIB\inc\misc.h)(0x64C99EBF)
 I (..\SYSTEM\delay\delay.h)(0x64C99EC0)
+<<<<<<< HEAD
 I (..\SYSTEM\usart\usart.h)(0x64CB36DD)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
@@ -872,6 +878,12 @@ I (..\HARDWARE\pid.h)(0x64C9B6D0)
 I (..\HARDWARE\oled.h)(0x64C9A76A)
 F (..\HARDWARE\control.h)(0x64CB846A)()
 F (..\HARDWARE\key.c)(0x64CB846A)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+=======
+I (..\SYSTEM\usart\usart.h)(0x64C99EC0)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\HARDWARE\control.h)(0x64CAF6B5)()
+F (..\HARDWARE\key.c)(0x64CAF46B)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
 I (..\HARDWARE\key.h)(0x64CAF46B)
 I (..\SYSTEM\sys\sys.h)(0x64C99EC0)
 I (..\USER\stm32f10x.h)(0x64C99EC0)
@@ -904,8 +916,13 @@ I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64C99EBF)
 I (..\FWLIB\inc\misc.h)(0x64C99EBF)
 I (..\SYSTEM\delay\delay.h)(0x64C99EC0)
 F (..\HARDWARE\key.h)(0x64CAF46B)()
+<<<<<<< HEAD
 F (..\HARDWARE\servo.c)(0x64CB846A)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\servo.o --omf_browse .\objects\servo.crf --depend .\objects\servo.d)
 I (..\HARDWARE\servo.h)(0x64CB36DD)
+=======
+F (..\HARDWARE\servo.c)(0x64CAF44A)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\servo.o --omf_browse .\objects\servo.crf --depend .\objects\servo.d)
+I (..\HARDWARE\servo.h)(0x64CAF323)
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
 I (..\SYSTEM\sys\sys.h)(0x64C99EC0)
 I (..\USER\stm32f10x.h)(0x64C99EC0)
 I (..\CORE\core_cm3.h)(0x64C99EBF)
@@ -936,7 +953,11 @@ I (..\FWLIB\inc\stm32f10x_usart.h)(0x64C99EBF)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64C99EBF)
 I (..\FWLIB\inc\misc.h)(0x64C99EBF)
 I (..\HARDWARE\timer.h)(0x64CAF408)
+<<<<<<< HEAD
 F (..\HARDWARE\servo.h)(0x64CB36DD)()
+=======
+F (..\HARDWARE\servo.h)(0x64CAF323)()
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
 F (..\HARDWARE\timer.c)(0x64CAF431)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (..\HARDWARE\timer.h)(0x64CAF408)
 I (..\SYSTEM\sys\sys.h)(0x64C99EC0)
@@ -969,7 +990,11 @@ I (..\FWLIB\inc\stm32f10x_usart.h)(0x64C99EBF)
 I (..\FWLIB\inc\stm32f10x_wwdg.h)(0x64C99EBF)
 I (..\FWLIB\inc\misc.h)(0x64C99EBF)
 F (..\HARDWARE\timer.h)(0x64CAF408)()
+<<<<<<< HEAD
 F (..\USER\main.c)(0x64CB868C)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+=======
+F (..\USER\main.c)(0x64CB364E)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
 I (..\USER\stm32f10x.h)(0x64C99EC0)
 I (..\CORE\core_cm3.h)(0x64C99EBF)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
@@ -1003,10 +1028,16 @@ I (..\SYSTEM\delay\delay.h)(0x64C99EC0)
 I (..\SYSTEM\usart\usart.h)(0x64CB36DD)
 I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (..\HARDWARE\OLED.h)(0x64C9A76A)
+<<<<<<< HEAD
 I (..\HARDWARE\servo.h)(0x64CB36DD)
 I (..\HARDWARE\pid.h)(0x64C9B6D0)
 I (..\HARDWARE\timer.h)(0x64CAF408)
 I (..\HARDWARE\control.h)(0x64CB846A)
+=======
+I (..\HARDWARE\servo.h)(0x64CAF323)
+I (..\HARDWARE\pid.h)(0x64C9B6D0)
+I (..\HARDWARE\timer.h)(0x64CAF408)
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
 F (..\USER\stm32f10x_it.c)(0x64C99EC0)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\HARDWARE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER-IC:\Users\23110\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (..\USER\stm32f10x_it.h)(0x64C99EC0)
 I (..\USER\stm32f10x.h)(0x64C99EC0)

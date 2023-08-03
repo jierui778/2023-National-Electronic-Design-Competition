@@ -33,9 +33,12 @@
 .\objects\control.o: ..\SYSTEM\delay\delay.h
 .\objects\control.o: ..\SYSTEM\usart\usart.h
 .\objects\control.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+<<<<<<< HEAD
 .\objects\control.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\control.o: ..\HARDWARE\servo.h
 .\objects\control.o: ..\HARDWARE\key.h
 .\objects\control.o: ..\HARDWARE\timer.h
 .\objects\control.o: ..\HARDWARE\pid.h
 .\objects\control.o: ..\HARDWARE\oled.h
+=======
+>>>>>>> 17b694d56a43349a362b130eed5bc9bea1ff3c1a
