@@ -2,8 +2,8 @@
 #define __CONTROL_H
 
 #include "sys.h"
-#include "delay.h"
-#include "usart.h"
+
+
 void Control_Init(void);   //初始化
 
 void TrackLine(int Targetx, int Targety, int Currentx, int Currenty); // 舵机跟踪线路
