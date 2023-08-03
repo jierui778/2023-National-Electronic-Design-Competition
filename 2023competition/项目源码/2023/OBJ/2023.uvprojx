@@ -566,14 +566,44 @@
               <FilePath>..\HARDWARE\pid.h</FilePath>
             </File>
             <File>
-              <FileName>sg90.c</FileName>
+              <FileName>control.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\sg90.c</FilePath>
+              <FilePath>..\HARDWARE\control.c</FilePath>
             </File>
             <File>
-              <FileName>sg90.h</FileName>
+              <FileName>control.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\HARDWARE\sg90.h</FilePath>
+              <FilePath>..\HARDWARE\control.h</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\key.h</FilePath>
+            </File>
+            <File>
+              <FileName>servo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\servo.c</FilePath>
+            </File>
+            <File>
+              <FileName>servo.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\servo.h</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\timer.h</FilePath>
             </File>
           </Files>
         </Group>

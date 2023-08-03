@@ -154,7 +154,7 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 
 
 //串口3初始化
-void Serial_Init(void)
+void Serial_Init(uint32_t Baud)
 {
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
@@ -171,7 +171,7 @@ void Serial_Init(void)
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
 	
 	USART_InitTypeDef USART_InitStructure;
-	USART_InitStructure.USART_BaudRate = 115200;//????????115200
+	USART_InitStructure.USART_BaudRate = Baud;//????????115200
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;//???8?????
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;//?????
 	USART_InitStructure.USART_Parity = USART_Parity_No;//??????
