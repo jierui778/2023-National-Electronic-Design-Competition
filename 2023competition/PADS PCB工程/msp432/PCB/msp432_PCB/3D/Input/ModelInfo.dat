@@ -1,0 +1,17 @@
+Version: 1
+RefDes: 0
+FactPartName: "MSP432P401RIPZ"
+SubSeriesName: "MSP432P401RIPZ"
+PartNum: "MSP432P401RIPZ"
+Height: 0
+Mass: 9999
+Package: "MSP432P401RIPZ"
+ITHS: 0
+Material_ID: 1
+Package_Material: 0
+Density: 3e-10
+Side: 
+PRT: "C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\MSP432P401RIPZ\MSP432P401RIPZ.prt"
+PTD: "C:\PADS Projects\Reuse\3DModels\PartDB\User\MSP432P401RIPZ\MSP432P401RIPZ.etd"
+
+

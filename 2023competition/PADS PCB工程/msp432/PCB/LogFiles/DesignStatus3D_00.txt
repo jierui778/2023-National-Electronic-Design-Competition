@@ -1,0 +1,37 @@
+==============================================================================
+PADS Layout - 版本 2022.2.20124196
+==============================================================================
+作业名称:                  C:\Users\JIERUI\Desktop\2023\competition\2023competition\PADS PCB工程\msp432\PCB\msp432.pcb
+
+3D 设计状态报告:   C:\Users\JIERUI\Desktop\2023\competition\2023competition\PADS PCB工程\msp432\PCB\LogFiles\DesignStatus3D_00.txt
+
+04:40:31 PM Tuesday, August 08, 2023
+
+==============================================================================
+3D 设计状态
+==============================================================================
+
+设计 Z 区域 ......... -26.67 th to 102.7 th
+
+找到元件模型 ........ 3
+   元件编号                3D 模型
+   C_CS_SMD                C:\Users\JIERUI\Desktop\2023\competition\2023competition\PADS PCB工程\msp432\PCB\msp432_PCB\3D\ImportedPartModels\MSP432P401RIPZ.stp
+   MSP432P401RIPZ          C:\Users\JIERUI\Desktop\2023\competition\2023competition\PADS PCB工程\msp432\PCB\msp432_PCB\3D\ImportedPartModels\MSP432P401RIPZ.stp
+   PH_2P                   C:\Users\JIERUI\Desktop\2023\competition\2023competition\PADS PCB工程\msp432\PCB\msp432_PCB\3D\ImportedPartModels\MSP432P401RIPZ.stp
+
+未找到元件模型 ........ 13
+   元件编号
+   C_SMD
+   FU_SMD
+   HDR_20X2P
+   HDR_3X2P
+   HDR_4P
+   L_SMD
+   LED_SMD
+   R_8P4R_SMD
+   R_SMD
+   RT9013-33GB
+   TSW_2P
+   XTAL_2P
+   XTAL_4P
+
